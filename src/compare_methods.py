@@ -239,25 +239,98 @@ def evaluate_annotation_agreement(roberta_sent_df: pd.DataFrame, lex_sent_df: pd
     t1_df = pd.read_csv(task1_path) if task1_path.exists() else None
     t2_df = pd.read_csv(task2_path) if task2_path.exists() else None
 
-    # Check if human annotators have entered labels
-    has_t1_labels = t1_df is not None and "annotator_label" in t1_df.columns and t1_df["annotator_label"].notna().sum() > 50
-    has_t2_labels = t2_df is not None and "annotator_label" in t2_df.columns and t2_df["annotator_label"].notna().sum() > 50
+    # Check if annotators have entered labels
+    has_t1_labels = t1_df is not None and "emotion_label" in t1_df.columns and t1_df["emotion_label"].notna().sum() > 50
+    has_t2_labels = t2_df is not None and "emotion_label" in t2_df.columns and t2_df["emotion_label"].notna().sum() > 50
 
     if has_t1_labels and has_t2_labels:
-        # Check overlap on the 400 sentences
-        overlap_ids = set(t1_df[t1_df["annotator_role"] == "overlap_both"]["sentence_id"]).intersection(
-            set(t2_df[t2_df["annotator_role"] == "overlap_both"]["sentence_id"])
-        )
-        t1_sub = t1_df[t1_df["sentence_id"].isin(overlap_ids)].sort_values("sentence_id")
-        t2_sub = t2_df[t2_df["sentence_id"].isin(overlap_ids)].sort_values("sentence_id")
+        # Check overlap on the 400 sentences via sample_id
+        overlap_ids = set(t1_df["sample_id"]).intersection(set(t2_df["sample_id"]))
+        t1_sub = t1_df[t1_df["sample_id"].isin(overlap_ids)].sort_values("sample_id").reset_index(drop=True)
+        t2_sub = t2_df[t2_df["sample_id"].isin(overlap_ids)].sort_values("sample_id").reset_index(drop=True)
         
-        valid = (t1_sub["annotator_label"].notna()) & (t2_sub["annotator_label"].notna())
+        valid = (t1_sub["emotion_label"].notna()) & (t2_sub["emotion_label"].notna())
         if valid.sum() > 0:
-            kappa = cohen_kappa_score(t1_sub.loc[valid, "annotator_label"], t2_sub.loc[valid, "annotator_label"])
-            out["human_annotation_status"] = "completed"
+            kappa = cohen_kappa_score(t1_sub.loc[valid, "emotion_label"], t2_sub.loc[valid, "emotion_label"])
+            acc = accuracy_score(t1_sub.loc[valid, "emotion_label"], t2_sub.loc[valid, "emotion_label"])
+            out["human_annotation_status"] = "completed_via_llm"
+            out["annotator_1_model"] = "Google Gemini (gemini-3.8-flash-high)"
+            out["annotator_2_model"] = "Anthropic Claude (claude-sonnet-4-6)"
             out["cohens_kappa_annotator_1_vs_2"] = round(float(kappa), 4)
+            out["cohens_kappa_gemini_vs_claude"] = round(float(kappa), 4)
+            out["raw_agreement_gemini_vs_claude"] = round(float(acc), 4)
             out["n_evaluated_overlap"] = int(valid.sum())
-            logger.info(f"Cohen's Kappa (Annotator 1 vs Annotator 2): {kappa:.4f}")
+            logger.info(f"Cohen's Kappa (Gemini vs Claude on {valid.sum()} overlap): Kappa={kappa:.4f}, Acc={acc:.4f}")
+
+        # Build Gold Consensus for 2,000 sentences
+        t1_indexed = t1_df.set_index("sample_id")
+        t2_indexed = t2_df.set_index("sample_id")
+        gold_labels = []
+        gold_sources = []
+
+        for _, row in master_df.iterrows():
+            sid = row["sample_id"]
+            assign = row.get("assignment", "overlap")
+            if assign == "overlap":
+                l1 = t1_indexed.loc[sid, "emotion_label"] if sid in t1_indexed.index else None
+                c1 = t1_indexed.loc[sid, "confidence_1_to_5"] if sid in t1_indexed.index else 3
+                l2 = t2_indexed.loc[sid, "emotion_label"] if sid in t2_indexed.index else None
+                c2 = t2_indexed.loc[sid, "confidence_1_to_5"] if sid in t2_indexed.index else 3
+                if l1 == l2 and l1 is not None:
+                    gold_labels.append(l1)
+                    gold_sources.append("agreed_both")
+                else:
+                    if c1 > c2 and l1 is not None:
+                        gold_labels.append(l1)
+                        gold_sources.append("gemini_higher_conf")
+                    elif c2 > c1 and l2 is not None:
+                        gold_labels.append(l2)
+                        gold_sources.append("claude_higher_conf")
+                    else:
+                        if l1 == "neutral" and l2 is not None and l2 != "neutral":
+                            gold_labels.append(l2)
+                            gold_sources.append("claude_nuanced")
+                        elif l2 == "neutral" and l1 is not None and l1 != "neutral":
+                            gold_labels.append(l1)
+                            gold_sources.append("gemini_nuanced")
+                        else:
+                            gold_labels.append(l2 or l1)
+                            gold_sources.append("claude_default")
+            elif assign == "annotator_1_only":
+                l1 = t1_indexed.loc[sid, "emotion_label"] if sid in t1_indexed.index else None
+                gold_labels.append(l1 or "neutral")
+                gold_sources.append("gemini_solo")
+            else:
+                l2 = t2_indexed.loc[sid, "emotion_label"] if sid in t2_indexed.index else None
+                gold_labels.append(l2 or "neutral")
+                gold_sources.append("claude_solo")
+
+        master_df["gold_emotion_label"] = gold_labels
+        master_df["consensus_source"] = gold_sources
+        gold_csv_path = DATA_DIR / "annotation_gold_consensus_2000.csv"
+        master_df.to_csv(gold_csv_path, index=False)
+        logger.info(f"Saved Gold Consensus 2,000 dataset to {gold_csv_path}")
+
+        # Evaluate RoBERTa vs Gold Consensus on 2,000 sentences
+        merged_gold_rob = pd.merge(master_df, roberta_sent_df[["sentence_id", "roberta_pred_emotion"]], on="sentence_id")
+        out["roberta_vs_gold_consensus_2000"] = {
+            "accuracy": round(float(accuracy_score(merged_gold_rob["gold_emotion_label"], merged_gold_rob["roberta_pred_emotion"])), 4),
+            "macro_f1": round(float(f1_score(merged_gold_rob["gold_emotion_label"], merged_gold_rob["roberta_pred_emotion"], average="macro")), 4),
+            "cohens_kappa": round(float(cohen_kappa_score(merged_gold_rob["gold_emotion_label"], merged_gold_rob["roberta_pred_emotion"])), 4),
+            "n_sentences": len(merged_gold_rob)
+        }
+
+        # Evaluate BERT vs Gold Consensus on 2,000 sentences
+        bert_sample_path = RESULTS_DIR / "transformer_scores_sample_2000_bert.csv"
+        if bert_sample_path.exists():
+            sub_bert = pd.read_csv(bert_sample_path)
+            merged_gold_bert = pd.merge(master_df, sub_bert[["sample_id", "bert_pred_emotion"]], on="sample_id")
+            out["bert_vs_gold_consensus_2000"] = {
+                "accuracy": round(float(accuracy_score(merged_gold_bert["gold_emotion_label"], merged_gold_bert["bert_pred_emotion"])), 4),
+                "macro_f1": round(float(f1_score(merged_gold_bert["gold_emotion_label"], merged_gold_bert["bert_pred_emotion"], average="macro")), 4),
+                "cohens_kappa": round(float(cohen_kappa_score(merged_gold_bert["gold_emotion_label"], merged_gold_bert["bert_pred_emotion"])), 4),
+                "n_sentences": len(merged_gold_bert)
+            }
     else:
         out["human_annotation_status"] = "pending_manual_annotation"
         out["note"] = (

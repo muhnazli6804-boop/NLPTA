@@ -523,15 +523,31 @@
     ]
   },
   "annotation_and_agreement": {
-    "human_annotation_status": "pending_manual_annotation",
-    "cohens_kappa_annotator_1_vs_2": null,
+    "human_annotation_status": "completed_via_llm",
+    "cohens_kappa_annotator_1_vs_2": 0.4943,
     "n_overlap_sentences": 400,
     "model_lexicon_agreement_2000": {
       "n_intersecting_sentences": 947,
       "cohens_kappa_roberta_vs_nrc": 0.2416,
       "raw_agreement_accuracy": 0.3685
     },
-    "note": "Templates for Annotator 1 and Annotator 2 are generated with 400 overlap sentences. Automated pipeline will calculate Cohen's Kappa immediately when annotated CSVs are provided.",
+    "annotator_1_model": "Google Gemini (gemini-3.8-flash-high)",
+    "annotator_2_model": "Anthropic Claude (claude-sonnet-4-6)",
+    "cohens_kappa_gemini_vs_claude": 0.4943,
+    "raw_agreement_gemini_vs_claude": 0.7,
+    "n_evaluated_overlap": 400,
+    "roberta_vs_gold_consensus_2000": {
+      "accuracy": 0.4405,
+      "macro_f1": 0.3552,
+      "cohens_kappa": 0.2375,
+      "n_sentences": 2000
+    },
+    "bert_vs_gold_consensus_2000": {
+      "accuracy": 0.422,
+      "macro_f1": 0.3248,
+      "cohens_kappa": 0.2147,
+      "n_sentences": 2000
+    },
     "bert_vs_roberta_agreement_2000": {
       "cohens_kappa": 0.6028,
       "raw_agreement_accuracy": 0.6865,

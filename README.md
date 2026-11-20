@@ -200,14 +200,20 @@ Dihitung secara ketat pada **6 emosi yang beririsan** (*anger, disgust, fear, jo
 
 *Temuan Metodologis:* Pada tingkat kalimat individual, keselarasan kata per kata bersifat moderat ($\rho \approx 0,25 - 0,31$). Namun, ketika diagregasi ke alur narasi 100 bins, Leksikon dan Transformer mencapai keselarasan makro yang sangat kuat pada emosi **Joy** ($\rho$ hingga 0,73) dan **Fear** ($\rho$ hingga 0,65).
 
-### 4. Evaluasi Kesepakatan Model (Cohen's Kappa)
+### 4. Studi Anotasi LLM Multi-Model & Evaluasi Kesepakatan (Cohen's Kappa)
 
-- **BERT vs. RoBERTa (2.000 kalimat sampel emas):**
-  * **Cohen's Kappa ($\kappa$):** `0,6028` (*Substantial Agreement*)
-  * **Raw Accuracy Agreement:** `68,65%`
+Penelitian ini mengimplementasikan studi komparatif **LLM-as-an-Annotator** menggunakan dua model fondasi terkemuka: **Google Gemini** (`gemini-3.8-flash-high`) sebagai Anotator 1 dan **Anthropic Claude** (`claude-sonnet-4-6`) sebagai Anotator 2:
+
+- **Inter-LLM Agreement (Gemini vs. Claude pada 400 kalimat irisan *overlap*):**
+  * **Cohen's Kappa ($\kappa$):** `0,4943` (*Moderate Agreement* pada data sastra bernuansa kompleks)
+  * **Raw Accuracy Agreement:** `70,00%` (280 dari 400 kalimat memiliki label identik)
+- **Evaluasi Model Transformer vs. Gold Standard Konsensus LLM (2.000 Kalimat):**
+  * **RoBERTa (Fine-tuned):** Akurasi `44,05%`, Macro F1 `0,3552`, Cohen's Kappa `0,2375`
+  * **BERT (Fine-tuned):** Akurasi `42,20%`, Macro F1 `0,3248`, Cohen's Kappa `0,2147`
+- **Kesepakatan Antar-Model Transformer:**
+  * **BERT vs. RoBERTa (2.000 kalimat sampel emas):** Cohen's Kappa `0,6028` (*Substantial Agreement*), Raw Agreement `68,65%`
 - **RoBERTa vs. Leksikon NRC Dominan (Non-Netral):**
-  * **Cohen's Kappa ($\kappa$):** `0,2416` (*Fair Agreement*)
-  * **Raw Accuracy Agreement:** `36,85%`
+  * **Cohen's Kappa ($\kappa$):** `0,2416` (*Fair Agreement*), Raw Agreement `36,85%`
 
 ### 5. Validasi terhadap Studi Acuan Picca, Schnyder & Romele (2024)
 
