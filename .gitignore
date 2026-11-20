@@ -1,0 +1,31 @@
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*/__pycache__/*
+
+# Large Model Weights (> 100 MB GitHub limit)
+# Can be regenerated locally with: python src/train_transformer.py
+*.safetensors
+*.bin
+*.pt
+*.pth
+results/models/**/*.safetensors
+results/models/**/*.bin
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Checkpoints / temp
+.ipynb_checkpoints/

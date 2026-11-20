@@ -1,0 +1,123 @@
+{
+  "reference_study": "Picca, Schnyder & Romele (2024) - Computational Literary Studies on Crime and Punishment",
+  "novel": "Crime and Punishment",
+  "checkpoints_evaluated": [
+    {
+      "narrative_checkpoint": "Murder of Alyona Ivanovna (Part I Climax)",
+      "novel_progress_pct": "15%-20%",
+      "picca_expected_pattern": "High Fear & Anger, Low Joy",
+      "empirical_roberta_probs_pct": {
+        "anger": 10.75,
+        "disgust": 5.04,
+        "fear": 16.14,
+        "joy": 8.16,
+        "sadness": 9.55,
+        "surprise": 18.78
+      },
+      "empirical_nrc_pct": {
+        "anger": 11.26,
+        "disgust": 8.24,
+        "fear": 15.96,
+        "joy": 8.47,
+        "sadness": 14.98,
+        "surprise": 11.04
+      },
+      "dominant_roberta_emotion": "surprise",
+      "dominant_nrc_emotion": "fear"
+    },
+    {
+      "narrative_checkpoint": "Marmeladov Death & Sonia Introduction (Part II)",
+      "novel_progress_pct": "30%-35%",
+      "picca_expected_pattern": "Peak Sadness, Elevated Fear",
+      "empirical_roberta_probs_pct": {
+        "anger": 11.2,
+        "disgust": 4.92,
+        "fear": 9.66,
+        "joy": 9.94,
+        "sadness": 8.74,
+        "surprise": 25.58
+      },
+      "empirical_nrc_pct": {
+        "anger": 12.21,
+        "disgust": 8.22,
+        "fear": 14.85,
+        "joy": 8.98,
+        "sadness": 13.83,
+        "surprise": 10.56
+      },
+      "dominant_roberta_emotion": "surprise",
+      "dominant_nrc_emotion": "fear"
+    },
+    {
+      "narrative_checkpoint": "Psychological Interrogations by Porfiry Petrovich (Part IV-V)",
+      "novel_progress_pct": "60%-75%",
+      "picca_expected_pattern": "Peak Surprise / Suspense, Sustained Fear",
+      "empirical_roberta_probs_pct": {
+        "anger": 12.76,
+        "disgust": 3.99,
+        "fear": 12.87,
+        "joy": 8.86,
+        "sadness": 11.47,
+        "surprise": 24.06
+      },
+      "empirical_nrc_pct": {
+        "anger": 11.23,
+        "disgust": 7.93,
+        "fear": 14.1,
+        "joy": 11.41,
+        "sadness": 13.53,
+        "surprise": 9.56
+      },
+      "dominant_roberta_emotion": "surprise",
+      "dominant_nrc_emotion": "fear"
+    },
+    {
+      "narrative_checkpoint": "Svidrigailov Suicide & Confession (Part VI)",
+      "novel_progress_pct": "85%-90%",
+      "picca_expected_pattern": "Climactic Distress, High Fear & Anger",
+      "empirical_roberta_probs_pct": {
+        "anger": 12.76,
+        "disgust": 4.93,
+        "fear": 14.08,
+        "joy": 9.84,
+        "sadness": 8.7,
+        "surprise": 20.83
+      },
+      "empirical_nrc_pct": {
+        "anger": 11.09,
+        "disgust": 6.87,
+        "fear": 13.32,
+        "joy": 11.71,
+        "sadness": 12.75,
+        "surprise": 10.09
+      },
+      "dominant_roberta_emotion": "surprise",
+      "dominant_nrc_emotion": "fear"
+    },
+    {
+      "narrative_checkpoint": "Siberian Prison & Epilogue Redemption (Epilogue)",
+      "novel_progress_pct": "95%-100%",
+      "picca_expected_pattern": "Sharp Joy Recovery, Dramatic Drop in Fear/Sadness",
+      "empirical_roberta_probs_pct": {
+        "anger": 8.28,
+        "disgust": 4.04,
+        "fear": 14.2,
+        "joy": 9.69,
+        "sadness": 14.16,
+        "surprise": 18.27
+      },
+      "empirical_nrc_pct": {
+        "anger": 12.72,
+        "disgust": 8.74,
+        "fear": 15.59,
+        "joy": 9.72,
+        "sadness": 16.0,
+        "surprise": 7.97
+      },
+      "dominant_roberta_emotion": "surprise",
+      "dominant_nrc_emotion": "sadness"
+    }
+  ],
+  "epilogue_joy_surge_detected": false,
+  "murder_fear_spike_detected": true
+}

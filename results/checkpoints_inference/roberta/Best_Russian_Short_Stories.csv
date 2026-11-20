@@ -1,0 +1,187 @@
+sentence_id,gutenberg_id,title,paragraph_id,text,word_count,roberta_prob_anger,roberta_prob_disgust,roberta_prob_fear,roberta_prob_joy,roberta_prob_sadness,roberta_prob_surprise,roberta_prob_neutral,roberta_pred_emotion
+66225,13437,Best Russian Short Stories,1,The other day I saw a wedding...,7,0.0162,0.0099,0.0153,0.1628,0.0366,0.2639,0.4953,neutral
+66226,13437,Best Russian Short Stories,1,But no!,2,0.7029,0.0247,0.0249,0.0682,0.0244,0.0332,0.1216,anger
+66227,13437,Best Russian Short Stories,1,I would rather tell you about a Christmas tree.,9,0.0313,0.0177,0.0101,0.3754,0.0267,0.0705,0.4683,neutral
+66228,13437,Best Russian Short Stories,1,The wedding was superb.,4,0.0036,0.0101,0.0162,0.9438,0.0037,0.0089,0.0138,joy
+66229,13437,Best Russian Short Stories,1,I liked it immensely.,4,0.0028,0.0052,0.006,0.9722,0.003,0.0038,0.0071,joy
+66230,13437,Best Russian Short Stories,1,But the other incident was still finer.,7,0.0508,0.0519,0.051,0.0408,0.224,0.1117,0.4697,neutral
+66231,13437,Best Russian Short Stories,1,I don't know why it is that the sight of the wedding reminded me of the Christmas tree.,18,0.0246,0.003,0.0019,0.0065,0.0101,0.9069,0.047,surprise
+66232,13437,Best Russian Short Stories,1,This is the way it happened:,6,0.0383,0.017,0.0121,0.0272,0.0333,0.1291,0.743,neutral
+66233,13437,Best Russian Short Stories,2,"Exactly five years ago, on New Year's Eve, I was invited to a children's ball by a man high up in the business world, who had his connections, his circle of acquaintances, and his intrigues.",35,0.0204,0.0073,0.0309,0.0544,0.0222,0.0863,0.7785,neutral
+66234,13437,Best Russian Short Stories,2,"So it seemed as though the children's ball was merely a pretext for the parents to come together and discuss matters of interest to themselves, quite innocently and casually.",29,0.0489,0.0151,0.0106,0.099,0.0327,0.1394,0.6542,neutral
+66235,13437,Best Russian Short Stories,3,"I was an outsider, and, as I had no special matters to air, I was able to spend the evening independently of the others.",24,0.0527,0.0256,0.0215,0.1611,0.0756,0.2058,0.4577,neutral
+66236,13437,Best Russian Short Stories,3,There was another gentleman present who like myself had just stumbled upon this affair of domestic bliss.,17,0.0141,0.0084,0.009,0.1787,0.0239,0.1435,0.6224,neutral
+66237,13437,Best Russian Short Stories,3,He was the first to attract my attention.,8,0.013,0.0057,0.0142,0.3442,0.0229,0.1146,0.4854,neutral
+66238,13437,Best Russian Short Stories,3,His appearance was not that of a man of birth or high family.,13,0.3937,0.0573,0.0069,0.0362,0.0778,0.0884,0.3397,anger
+66239,13437,Best Russian Short Stories,3,"He was tall, rather thin, very serious, and well dressed.",10,0.0235,0.0205,0.0624,0.519,0.02,0.038,0.3166,joy
+66240,13437,Best Russian Short Stories,3,Apparently he had no heart for the family festivities.,9,0.6881,0.0202,0.0044,0.0103,0.1932,0.042,0.0418,anger
+66241,13437,Best Russian Short Stories,3,"The instant he went off into a corner by himself the smile disappeared from his face, and his thick dark brows knitted into a frown.",25,0.2085,0.0617,0.0681,0.0472,0.3124,0.0464,0.2557,sadness
+66242,13437,Best Russian Short Stories,3,"He knew no one except the host and showed every sign of being bored to death, though bravely sustaining the role of thorough enjoyment to the end.",27,0.1304,0.0918,0.0144,0.1415,0.4606,0.0416,0.1197,sadness
+66243,13437,Best Russian Short Stories,3,"Later I learned that he was a provincial, had come to the capital on some important, brain-racking business, had brought a letter of recommendation to our host, and our host had taken him under his protection, not at all con amore.",41,0.0208,0.0072,0.0315,0.0498,0.0115,0.1762,0.703,neutral
+66244,13437,Best Russian Short Stories,3,It was merely out of politeness that he had invited him to the children's ball.,15,0.086,0.0192,0.011,0.2073,0.0825,0.0897,0.5043,neutral
+66245,13437,Best Russian Short Stories,4,"They did not play cards with him, they did not offer him cigars.",13,0.6744,0.0228,0.0069,0.0117,0.0345,0.025,0.2247,anger
+66246,13437,Best Russian Short Stories,4,No one entered into conversation with him.,7,0.3768,0.0133,0.019,0.0112,0.055,0.0785,0.4461,neutral
+66247,13437,Best Russian Short Stories,4,Possibly they recognised the bird by its feathers from a distance.,11,0.0252,0.0087,0.0115,0.0235,0.0113,0.5408,0.379,surprise
+66248,13437,Best Russian Short Stories,4,"Thus, my gentleman, not knowing what to do with his hands, was compelled to spend the evening stroking his whiskers.",20,0.0521,0.0101,0.022,0.0224,0.0855,0.5719,0.2358,surprise
+66249,13437,Best Russian Short Stories,4,"His whiskers were really fine, but he stroked them so assiduously that one got the feeling that the whiskers had come into the world first and afterwards the man in order to stroke them.",34,0.0257,0.0389,0.0153,0.4313,0.0502,0.05,0.3886,joy
+66250,13437,Best Russian Short Stories,5,There was another guest who interested me.,7,0.0152,0.0081,0.0183,0.3542,0.0195,0.3579,0.2269,surprise
+66251,13437,Best Russian Short Stories,5,But he was of quite a different order.,8,0.0656,0.0361,0.0175,0.0614,0.0257,0.0887,0.7049,neutral
+66252,13437,Best Russian Short Stories,5,He was a personage.,4,0.0455,0.0234,0.0209,0.1779,0.0296,0.1194,0.5833,neutral
+66253,13437,Best Russian Short Stories,5,They called him Julian Mastakovich.,5,0.0209,0.0115,0.0109,0.0415,0.0092,0.0368,0.8692,neutral
+66254,13437,Best Russian Short Stories,5,At first glance one could tell he was an honoured guest and stood in the same relation to the host as the host to the gentleman of the whiskers.,29,0.0182,0.0158,0.0113,0.4385,0.0385,0.1402,0.3374,joy
+66255,13437,Best Russian Short Stories,5,"The host and hostess said no end of amiable things to him, were most attentive, wining him, hovering over him, bringing guests up to be introduced, but never leading him to any one else.",34,0.0071,0.007,0.0046,0.8288,0.0112,0.0234,0.1179,joy
+66256,13437,Best Russian Short Stories,5,I noticed tears glisten in our host's eyes when Julian Mastakovich remarked that he had rarely spent such a pleasant evening.,21,0.0071,0.0057,0.0083,0.7621,0.0758,0.0554,0.0857,joy
+66257,13437,Best Russian Short Stories,5,Somehow I began to feel uncomfortable in this personage's presence.,10,0.0676,0.1393,0.2279,0.0253,0.4623,0.0507,0.0269,sadness
+66258,13437,Best Russian Short Stories,5,"So, after amusing myself with the children, five of whom, remarkably well-fed young persons, were our host's, I went into a little sitting-room, entirely unoccupied, and seated myself at the end that was a conservatory and took up almost half the room.",42,0.0339,0.032,0.0163,0.369,0.0168,0.0427,0.4892,neutral
+66259,13437,Best Russian Short Stories,6,The children were charming.,4,0.0042,0.0061,0.0063,0.9375,0.0055,0.0089,0.0315,joy
+66260,13437,Best Russian Short Stories,6,"They absolutely refused to resemble their elders, notwithstanding the efforts of mothers and governesses.",14,0.8295,0.0248,0.0085,0.0081,0.0195,0.0158,0.0938,anger
+66261,13437,Best Russian Short Stories,6,In a jiffy they had denuded the Christmas tree down to the very last sweet and had already succeeded in breaking half of their playthings before they even found out which belonged to whom.,34,0.0624,0.0137,0.0467,0.0167,0.0265,0.233,0.6011,neutral
+66262,13437,Best Russian Short Stories,7,"One of them was a particularly handsome little lad, dark-eyed, curly-haired, who stubbornly persisted in aiming at me with his wooden gun.",22,0.0599,0.0128,0.0172,0.3461,0.0276,0.0412,0.4951,neutral
+66263,13437,Best Russian Short Stories,7,"But the child that attracted the greatest attention was his sister, a girl of about eleven, lovely as a Cupid.",20,0.0136,0.0184,0.0099,0.6298,0.0073,0.0654,0.2557,joy
+66264,13437,Best Russian Short Stories,7,"She was quiet and thoughtful, with large, full, dreamy eyes.",10,0.0141,0.0203,0.1325,0.3268,0.1266,0.1769,0.2028,joy
+66265,13437,Best Russian Short Stories,7,"The children had somehow offended her, and she left them and walked into the same room that I had withdrawn into.",21,0.5944,0.0987,0.0119,0.0287,0.1088,0.0808,0.0766,anger
+66266,13437,Best Russian Short Stories,7,There she seated herself with her doll in a corner.,10,0.0203,0.0223,0.0415,0.1146,0.0326,0.0304,0.7383,neutral
+66267,13437,Best Russian Short Stories,8,"""Her father is an immensely wealthy business man,"" the guests informed each other in tones of awe.",17,0.0077,0.0127,0.0181,0.4475,0.0093,0.3927,0.1118,joy
+66268,13437,Best Russian Short Stories,8,"""Three hundred thousand rubles set aside for her dowry already.""",10,0.0488,0.0105,0.0244,0.0586,0.0192,0.0371,0.8014,neutral
+66269,13437,Best Russian Short Stories,9,"As I turned to look at the group from which I heard this news item issuing, my glance met Julian Mastakovich's.",21,0.0197,0.0062,0.0252,0.0414,0.0357,0.3219,0.5499,neutral
+66270,13437,Best Russian Short Stories,9,"He stood listening to the insipid chatter in an attitude of concentrated attention, with his hands behind his back and his head inclined to one side.",26,0.1941,0.0173,0.0119,0.0442,0.0568,0.0688,0.6068,neutral
+66271,13437,Best Russian Short Stories,10,All the while I was quite lost in admiration of the shrewdness our host displayed in the dispensing of the gifts.,21,0.018,0.0182,0.0072,0.6614,0.0517,0.2085,0.0351,joy
+66272,13437,Best Russian Short Stories,10,"The little maid of the many-rubied dowry received the handsomest doll, and the rest of the gifts were graded in value according to the diminishing scale of the parents' stations in life.",32,0.0256,0.0195,0.0178,0.0813,0.0329,0.0392,0.7837,neutral
+66273,13437,Best Russian Short Stories,10,"The last child, a tiny chap of ten, thin, red-haired, freckled, came into possession of a small book of nature stories without illustrations or even head and tail pieces.",29,0.0257,0.0267,0.0843,0.0277,0.0358,0.0434,0.7564,neutral
+66274,13437,Best Russian Short Stories,10,He was the governess's child.,5,0.0252,0.0262,0.0548,0.0612,0.0341,0.0296,0.7689,neutral
+66275,13437,Best Russian Short Stories,10,"She was a poor widow, and her little boy, clad in a sorry-looking little nankeen jacket, looked thoroughly crushed and intimidated.",21,0.013,0.0341,0.4939,0.0056,0.4365,0.0079,0.0091,fear
+66276,13437,Best Russian Short Stories,10,He took the book of nature stories and circled slowly about the children's toys.,14,0.0202,0.0143,0.0322,0.0472,0.0121,0.0777,0.7964,neutral
+66277,13437,Best Russian Short Stories,10,He would have given anything to play with them.,9,0.0204,0.0083,0.0101,0.5317,0.0112,0.029,0.3892,joy
+66278,13437,Best Russian Short Stories,10,But he did not dare to.,6,0.4246,0.0174,0.3372,0.029,0.0244,0.0365,0.131,anger
+66279,13437,Best Russian Short Stories,10,You could tell he already knew his place.,8,0.0137,0.0096,0.0206,0.1077,0.0173,0.0907,0.7404,neutral
+66280,13437,Best Russian Short Stories,11,I like to observe children.,5,0.0063,0.0101,0.0148,0.7925,0.0086,0.0545,0.1131,joy
+66281,13437,Best Russian Short Stories,11,It is fascinating to watch the individuality in them struggling for self-assertion.,12,0.0151,0.0342,0.0139,0.7058,0.0143,0.1811,0.0357,joy
+66282,13437,Best Russian Short Stories,11,"I could see that the other children's things had tremendous charm for the red-haired boy, especially a toy theatre, in which he was so anxious to take a part that he resolved to fawn upon the other children.",38,0.0079,0.0065,0.0704,0.7608,0.0099,0.0283,0.1163,joy
+66283,13437,Best Russian Short Stories,11,He smiled and began to play with them.,8,0.0049,0.0041,0.0078,0.7394,0.0068,0.0216,0.2154,joy
+66284,13437,Best Russian Short Stories,11,"His one and only apple he handed over to a puffy urchin whose pockets were already crammed with sweets, and he even carried another youngster pickaback--all simply that he might be allowed to stay with the theatre.",37,0.0243,0.0082,0.0156,0.1115,0.0333,0.0369,0.7703,neutral
+66285,13437,Best Russian Short Stories,12,But in a few moments an impudent young person fell on him and gave him a pummelling.,17,0.2005,0.168,0.0211,0.0602,0.263,0.0347,0.2525,sadness
+66286,13437,Best Russian Short Stories,12,He did not dare even to cry.,7,0.2308,0.0134,0.0676,0.0138,0.5842,0.0194,0.0708,sadness
+66287,13437,Best Russian Short Stories,12,"The governess came and told him to leave off interfering with the other children's games, and he crept away to the same room the little girl and I were in.",30,0.0382,0.0177,0.1466,0.0545,0.0173,0.0349,0.6909,neutral
+66288,13437,Best Russian Short Stories,12,"She let him sit down beside her, and the two set themselves busily dressing the expensive doll.",17,0.0167,0.0128,0.0187,0.3789,0.0104,0.0326,0.5301,neutral
+66289,13437,Best Russian Short Stories,13,"Almost half an hour passed, and I was nearly dozing off, as I sat there in the conservatory half listening to the chatter of the red-haired boy and the dowered beauty, when Julian Mastakovich entered suddenly.",36,0.0277,0.039,0.284,0.083,0.1664,0.1052,0.2947,neutral
+66290,13437,Best Russian Short Stories,13,He had slipped out of the drawing-room under cover of a noisy scene among the children.,16,0.0405,0.0374,0.2396,0.0645,0.0234,0.1174,0.4771,neutral
+66291,13437,Best Russian Short Stories,13,"From my secluded corner it had not escaped my notice that a few moments before he had been eagerly conversing with the rich girl's father, to whom he had only just been introduced.",33,0.0296,0.0082,0.0069,0.1244,0.024,0.329,0.4779,neutral
+66292,13437,Best Russian Short Stories,14,"He stood still for a while reflecting and mumbling to himself, as if counting something on his fingers.",18,0.0793,0.0126,0.049,0.03,0.0375,0.3694,0.4223,neutral
+66293,13437,Best Russian Short Stories,15,"""Three hundred--three hundred--eleven--twelve--thirteen--sixteen--in five years! Let's say four per cent--five times twelve--sixty, and on these sixty----. Let us assume that in five years it will amount to--well, four hundred. Hm--hm! But the shrewd old fox isn't likely to be satisfied with four per cent. He gets eight or even ten, perhaps. Let's suppose five hundred, five hundred thousand, at least, that's sure. Anything above that for pocket money--hm--""",68,0.0474,0.0131,0.0181,0.0328,0.0052,0.0297,0.8537,neutral
+66294,13437,Best Russian Short Stories,16,He blew his nose and was about to leave the room when he spied the girl and stood still.,19,0.0664,0.0148,0.1101,0.0558,0.0296,0.1156,0.6077,neutral
+66295,13437,Best Russian Short Stories,16,"I, behind the plants, escaped his notice.",7,0.0821,0.0198,0.0503,0.0911,0.1606,0.2544,0.3417,neutral
+66296,13437,Best Russian Short Stories,16,He seemed to me to be quivering with excitement.,9,0.0119,0.0086,0.4792,0.3275,0.0099,0.0646,0.0982,fear
+66297,13437,Best Russian Short Stories,16,It must have been his calculations that upset him so.,10,0.0986,0.019,0.1045,0.012,0.6976,0.0534,0.0149,sadness
+66298,13437,Best Russian Short Stories,16,"He rubbed his hands and danced from place to place, and kept getting more and more excited.",17,0.0077,0.0058,0.1002,0.6994,0.0072,0.0383,0.1415,joy
+66299,13437,Best Russian Short Stories,16,"Finally, however, he conquered his emotions and came to a standstill.",11,0.1768,0.0054,0.047,0.1088,0.2138,0.047,0.4012,neutral
+66300,13437,Best Russian Short Stories,16,"He cast a determined look at the future bride and wanted to move toward her, but glanced about first.",19,0.051,0.0075,0.0846,0.0877,0.0353,0.0663,0.6675,neutral
+66301,13437,Best Russian Short Stories,16,"Then, as if with a guilty conscience, he stepped over to the child on tip-toe, smiling, and bent down and kissed her head.",23,0.0088,0.013,0.0093,0.5086,0.0308,0.0567,0.3729,joy
+66302,13437,Best Russian Short Stories,17,His coming was so unexpected that she uttered a shriek of alarm.,12,0.0209,0.0112,0.6827,0.0399,0.0152,0.1481,0.0819,fear
+66303,13437,Best Russian Short Stories,18,"""What are you doing here, dear child?"" he whispered, looking around and pinching her cheek.",15,0.0307,0.0062,0.0033,0.0075,0.0073,0.8776,0.0675,surprise
+66304,13437,Best Russian Short Stories,19,"""We're playing.""",2,0.0195,0.0055,0.007,0.3041,0.0119,0.028,0.624,neutral
+66305,13437,Best Russian Short Stories,20,"""What, with him?"" said Julian Mastakovich with a look askance at the governess's child.",14,0.0268,0.0072,0.003,0.0071,0.0053,0.8457,0.105,surprise
+66306,13437,Best Russian Short Stories,20,"""You should go into the drawing-room, my lad,"" he said to him.",12,0.0361,0.0102,0.0181,0.3737,0.0166,0.0221,0.5233,neutral
+66307,13437,Best Russian Short Stories,21,The boy remained silent and looked up at the man with wide-open eyes.,13,0.0249,0.0121,0.043,0.1539,0.0844,0.4306,0.2511,surprise
+66308,13437,Best Russian Short Stories,21,Julian Mastakovich glanced round again cautiously and bent down over the girl.,12,0.0103,0.0169,0.3282,0.0454,0.0231,0.119,0.4572,neutral
+66309,13437,Best Russian Short Stories,22,"""What have you got, a doll, my dear?""",8,0.0092,0.0046,0.0024,0.0253,0.006,0.8659,0.0866,surprise
+66310,13437,Best Russian Short Stories,23,"""Yes, sir.",2,0.0176,0.0083,0.0174,0.184,0.0123,0.0562,0.7041,neutral
+66311,13437,Best Russian Short Stories,23,"The child quailed a little, and her brow wrinkled.",9,0.0706,0.0362,0.6599,0.0274,0.0811,0.0225,0.1023,fear
+66312,13437,Best Russian Short Stories,24,"""A doll? And do you know, my dear, what dolls are made of?""",13,0.0091,0.004,0.0023,0.0087,0.0037,0.9133,0.0589,surprise
+66313,13437,Best Russian Short Stories,25,"""No, sir,"" she said weakly, and lowered her head.",9,0.208,0.0229,0.0171,0.264,0.3273,0.0315,0.1291,sadness
+66314,13437,Best Russian Short Stories,26,"""Out of rags, my dear. You, boy, you go back to the drawing-room, to the children,"" said Julian Mastakovich looking at the boy sternly.",24,0.3073,0.0476,0.0469,0.1181,0.1918,0.0301,0.2582,anger
+66315,13437,Best Russian Short Stories,27,The two children frowned.,4,0.3641,0.1585,0.0545,0.035,0.0787,0.088,0.2213,anger
+66316,13437,Best Russian Short Stories,27,They caught hold of each other and would not part.,10,0.1382,0.006,0.0193,0.074,0.0919,0.0468,0.6237,neutral
+66317,13437,Best Russian Short Stories,28,"""And do you know why they gave you the doll?"" asked Julian Mastakovich, dropping his voice lower and lower.",19,0.0174,0.0043,0.0022,0.0068,0.0076,0.8772,0.0846,surprise
+66318,13437,Best Russian Short Stories,29,"""No.""",1,0.8005,0.0173,0.0255,0.0211,0.0383,0.0206,0.0769,anger
+66319,13437,Best Russian Short Stories,30,"""Because you were a good, very good little girl the whole week.""",12,0.0038,0.004,0.0041,0.9113,0.0077,0.0059,0.0632,joy
+66320,13437,Best Russian Short Stories,31,"Saying which, Julian Mastakovich was seized with a paroxysm of agitation.",11,0.233,0.0285,0.1826,0.0797,0.0314,0.0535,0.3912,neutral
+66321,13437,Best Russian Short Stories,31,"He looked round and said in a tone faint, almost inaudible with excitement and impatience:",15,0.0774,0.0108,0.0387,0.2029,0.0368,0.0612,0.5721,neutral
+66322,13437,Best Russian Short Stories,32,"""If I come to visit your parents will you love me, my dear?""",13,0.0089,0.0033,0.0036,0.0818,0.0107,0.7691,0.1226,surprise
+66323,13437,Best Russian Short Stories,33,"He tried to kiss the sweet little creature, but the red-haired boy saw that she was on the verge of tears, and he caught her hand and sobbed out loud in sympathy.",32,0.0115,0.0081,0.0141,0.0821,0.8244,0.0182,0.0416,sadness
+66324,13437,Best Russian Short Stories,33,That enraged the man.,4,0.7388,0.1545,0.0432,0.0133,0.0208,0.0142,0.0152,anger
+66325,13437,Best Russian Short Stories,34,"""Go away! Go away! Go back to the other room, to your playmates.""",13,0.8458,0.0213,0.0225,0.0148,0.0162,0.01,0.0694,anger
+66326,13437,Best Russian Short Stories,35,"""I don't want him to. I don't want him to! You go away!"" cried the girl.",16,0.9309,0.0112,0.0077,0.0045,0.0167,0.01,0.0189,anger
+66327,13437,Best Russian Short Stories,35,"""Let him alone!",3,0.7655,0.0113,0.0336,0.0163,0.0136,0.0184,0.1412,anger
+66328,13437,Best Russian Short Stories,35,Let him alone!,3,0.6542,0.0118,0.0368,0.0453,0.0246,0.0296,0.1978,anger
+66329,13437,Best Russian Short Stories,35,She was almost weeping.,4,0.0307,0.0429,0.0872,0.0191,0.7664,0.0209,0.0328,sadness
+66330,13437,Best Russian Short Stories,36,There was a sound of footsteps in the doorway.,9,0.0299,0.0343,0.1326,0.0707,0.0245,0.0618,0.6463,neutral
+66331,13437,Best Russian Short Stories,36,Julian Mastakovich started and straightened up his respectable body.,9,0.0377,0.042,0.0329,0.0826,0.0254,0.021,0.7585,neutral
+66332,13437,Best Russian Short Stories,36,The red-haired boy was even more alarmed.,7,0.0024,0.0039,0.97,0.0041,0.0051,0.0093,0.0053,fear
+66333,13437,Best Russian Short Stories,36,"He let go the girl's hand, sidled along the wall, and escaped through the drawing-room into the dining-room.",18,0.0463,0.0135,0.0591,0.0698,0.0421,0.0817,0.6875,neutral
+66334,13437,Best Russian Short Stories,37,"Not to attract attention, Julian Mastakovich also made for the dining-room.",11,0.0736,0.0169,0.0056,0.1621,0.0236,0.0573,0.6608,neutral
+66335,13437,Best Russian Short Stories,37,He was red as a lobster.,6,0.1617,0.1364,0.1665,0.0401,0.1113,0.0712,0.3129,neutral
+66336,13437,Best Russian Short Stories,37,The sight of himself in a mirror seemed to embarrass him.,11,0.2286,0.2538,0.0446,0.019,0.3802,0.0627,0.0112,sadness
+66337,13437,Best Russian Short Stories,37,Presumably he was annoyed at his own ardour and impatience.,10,0.7127,0.0362,0.0117,0.0395,0.1077,0.0217,0.0705,anger
+66338,13437,Best Russian Short Stories,37,"Without due respect to his importance and dignity, his calculations had lured and pricked him to the greedy eagerness of a boy, who makes straight for his object--though this was not as yet an object; it only would be so in five years' time.",44,0.1382,0.0362,0.0783,0.0735,0.0452,0.0396,0.589,neutral
+66339,13437,Best Russian Short Stories,37,"I followed the worthy man into the dining-room, where I witnessed a remarkable play.",14,0.0048,0.015,0.0362,0.7312,0.0145,0.088,0.1103,joy
+66340,13437,Best Russian Short Stories,38,"Julian Mastakovich, all flushed with vexation, venom in his look, began to threaten the red-haired boy.",16,0.4172,0.232,0.1951,0.0207,0.0133,0.0187,0.103,anger
+66341,13437,Best Russian Short Stories,38,"The red-haired boy retreated farther and farther until there was no place left for him to retreat to, and he did not know where to turn in his fright.",29,0.0827,0.0217,0.3325,0.0136,0.1908,0.2277,0.131,fear
+66342,13437,Best Russian Short Stories,39,"""Get out of here! What are you doing here? Get out, I say, you good-for-nothing! Stealing fruit, are you? Oh, so, stealing fruit! Get out, you freckle face, go to your likes!""",32,0.4154,0.0328,0.0046,0.0097,0.0047,0.3698,0.1631,anger
+66343,13437,Best Russian Short Stories,40,"The frightened child, as a last desperate resort, crawled quickly under the table.",13,0.0027,0.0058,0.9765,0.003,0.0054,0.0031,0.0035,fear
+66344,13437,Best Russian Short Stories,40,"His persecutor, completely infuriated, pulled out his large linen handkerchief and used it as a lash to drive the boy out of his position.",24,0.7663,0.1,0.0357,0.0139,0.034,0.018,0.032,anger
+66345,13437,Best Russian Short Stories,41,"Here I must remark that Julian Mastakovich was a somewhat corpulent man, heavy, well-fed, puffy-cheeked, with a paunch and ankles as round as nuts.",24,0.0327,0.0632,0.0176,0.0804,0.0303,0.045,0.7308,neutral
+66346,13437,Best Russian Short Stories,41,He perspired and puffed and panted.,6,0.0917,0.0715,0.0235,0.1052,0.0642,0.0176,0.6263,neutral
+66347,13437,Best Russian Short Stories,41,So strong was his dislike (or was it jealousy?) of the child that he actually began to carry on like a madman.,22,0.5524,0.0491,0.0096,0.0126,0.0229,0.1117,0.2416,anger
+66348,13437,Best Russian Short Stories,42,I laughed heartily.,3,0.0042,0.0031,0.0065,0.9356,0.0053,0.0121,0.0332,joy
+66349,13437,Best Russian Short Stories,42,Julian Mastakovich turned.,3,0.037,0.0164,0.0587,0.0236,0.0567,0.053,0.7545,neutral
+66350,13437,Best Russian Short Stories,42,"He was utterly confused and for a moment, apparently, quite oblivious of his immense importance.",15,0.0382,0.0056,0.0095,0.009,0.037,0.8519,0.0487,surprise
+66351,13437,Best Russian Short Stories,42,At that moment our host appeared in the doorway opposite.,10,0.0181,0.0117,0.0417,0.0905,0.0299,0.0845,0.7236,neutral
+66352,13437,Best Russian Short Stories,42,The boy crawled out from under the table and wiped his knees and elbows.,14,0.0518,0.2006,0.1205,0.0842,0.1759,0.0269,0.3402,neutral
+66353,13437,Best Russian Short Stories,42,"Julian Mastakovich hastened to carry his handkerchief, which he had been dangling by the corner, to his nose.",18,0.0361,0.0086,0.0232,0.079,0.0382,0.0513,0.7635,neutral
+66354,13437,Best Russian Short Stories,42,Our host looked at the three of us rather suspiciously.,10,0.0372,0.0934,0.3136,0.0312,0.0226,0.3152,0.1867,surprise
+66355,13437,Best Russian Short Stories,42,"But, like a man who knows the world and can readily adjust himself, he seized upon the opportunity to lay hold of his very valuable guest and get what he wanted out of him.",34,0.0176,0.0044,0.0121,0.2123,0.0201,0.0725,0.6611,neutral
+66356,13437,Best Russian Short Stories,43,"""Here's the boy I was talking to you about,"" he said, indicating the red-haired child.",15,0.0093,0.0051,0.0116,0.0426,0.0141,0.1103,0.8071,neutral
+66357,13437,Best Russian Short Stories,43,"""I took the liberty of presuming on your goodness in his behalf.""",12,0.0283,0.0074,0.0851,0.3203,0.055,0.0911,0.4128,neutral
+66358,13437,Best Russian Short Stories,44,"""Oh,"" replied Julian Mastakovich, still not quite master of himself.",10,0.0136,0.0062,0.0027,0.0459,0.0203,0.8013,0.11,surprise
+66359,13437,Best Russian Short Stories,45,"""He's my governess's son,"" our host continued in a beseeching tone.",11,0.0926,0.0194,0.0157,0.1217,0.1438,0.107,0.4997,neutral
+66360,13437,Best Russian Short Stories,45,"""She's a poor creature, the widow of an honest official. That's why, if it were possible for you--""",18,0.127,0.1196,0.0184,0.015,0.6232,0.0501,0.0466,sadness
+66361,13437,Best Russian Short Stories,46,"""Impossible, impossible! Julian Mastakovich cried hastily. ""You must excuse me, Philip Alexeyevich, I really cannot.",15,0.2114,0.0314,0.0226,0.0584,0.3397,0.2498,0.0868,sadness
+66362,13437,Best Russian Short Stories,46,I've made inquiries.,3,0.0324,0.0128,0.0849,0.0948,0.04,0.1372,0.5978,neutral
+66363,13437,Best Russian Short Stories,46,"There are no vacancies, and there is a waiting list of ten who have a greater right--I'm sorry.",18,0.0069,0.0065,0.0044,0.0064,0.9668,0.0061,0.0029,sadness
+66364,13437,Best Russian Short Stories,47,"""Too bad,"" said our host.",5,0.0148,0.0327,0.0075,0.0131,0.9259,0.0028,0.0033,sadness
+66365,13437,Best Russian Short Stories,47,"""He's a quiet, unobtrusive child.""",5,0.0208,0.0102,0.0169,0.2735,0.0345,0.0599,0.5842,neutral
+66366,13437,Best Russian Short Stories,48,"""A very naughty little rascal, I should say,"" said Julian Mastakovich, wryly.",12,0.0194,0.2786,0.0399,0.4952,0.0233,0.0248,0.1187,joy
+66367,13437,Best Russian Short Stories,48,"""Go away, boy. Why are you here still? Be off with you to the other children.""",16,0.7705,0.0252,0.0029,0.0065,0.0118,0.1295,0.0535,anger
+66368,13437,Best Russian Short Stories,49,"Unable to control himself, he gave me a sidelong glance.",10,0.3818,0.0252,0.0292,0.0258,0.3374,0.1176,0.0831,anger
+66369,13437,Best Russian Short Stories,49,Nor could I control myself.,5,0.8221,0.0111,0.0299,0.0055,0.0381,0.0339,0.0593,anger
+66370,13437,Best Russian Short Stories,49,I laughed straight in his face.,6,0.0292,0.0089,0.0061,0.8319,0.0103,0.0247,0.089,joy
+66371,13437,Best Russian Short Stories,49,"He turned away and asked our host, in tones quite audible to me, who that odd young fellow was.",19,0.0229,0.0185,0.0053,0.0137,0.0102,0.8386,0.0907,surprise
+66372,13437,Best Russian Short Stories,49,"They whispered to each other and left the room, disregarding me.",11,0.247,0.0205,0.0106,0.0348,0.2925,0.0672,0.3274,neutral
+66373,13437,Best Russian Short Stories,50,I shook with laughter.,4,0.0109,0.0072,0.0534,0.8305,0.0166,0.0376,0.0437,joy
+66374,13437,Best Russian Short Stories,50,"Then I, too, went to the drawing-room.",7,0.0314,0.0097,0.0504,0.0831,0.0343,0.0463,0.7448,neutral
+66375,13437,Best Russian Short Stories,50,"There the great man, already surrounded by the fathers and mothers and the host and the hostess, had begun to talk eagerly with a lady to whom he had just been introduced.",32,0.0129,0.0127,0.0263,0.2406,0.0126,0.0872,0.6078,neutral
+66376,13437,Best Russian Short Stories,50,The lady held the rich little girl's hand.,8,0.0112,0.008,0.0077,0.5008,0.0301,0.0427,0.3996,joy
+66377,13437,Best Russian Short Stories,50,Julian Mastakovich went into fulsome praise of her.,8,0.0225,0.0213,0.0112,0.5154,0.0055,0.0188,0.4053,joy
+66378,13437,Best Russian Short Stories,50,"He waxed ecstatic over the dear child's beauty, her talents, her grace, her excellent breeding, plainly laying himself out to flatter the mother, who listened scarcely able to restrain tears of joy, while the father showed his delight by a gratified smile.",42,0.0111,0.0048,0.0107,0.7804,0.0061,0.0348,0.1521,joy
+66379,13437,Best Russian Short Stories,51,The joy was contagious.,4,0.0052,0.003,0.0111,0.893,0.0078,0.0165,0.0634,joy
+66380,13437,Best Russian Short Stories,51,Everybody shared in it.,4,0.0178,0.0051,0.0105,0.3836,0.0843,0.0355,0.4632,neutral
+66381,13437,Best Russian Short Stories,51,Even the children were obliged to stop playing so as not to disturb the conversation.,15,0.0913,0.0186,0.1214,0.1099,0.1601,0.087,0.4117,neutral
+66382,13437,Best Russian Short Stories,51,The atmosphere was surcharged with awe.,6,0.0126,0.018,0.1159,0.4735,0.01,0.2987,0.0713,joy
+66383,13437,Best Russian Short Stories,51,"I heard the mother of the important little girl, touched to her profoundest depths, ask Julian Mastakovich in the choicest language of courtesy, whether he would honour them by coming to see them.",33,0.0123,0.0082,0.0679,0.0609,0.7354,0.0861,0.0293,sadness
+66384,13437,Best Russian Short Stories,51,I heard Julian Mastakovich accept the invitation with unfeigned enthusiasm.,10,0.0104,0.005,0.0091,0.7623,0.0046,0.0321,0.1764,joy
+66385,13437,Best Russian Short Stories,51,"Then the guests scattered decorously to different parts of the room, and I heard them, with veneration in their tones, extol the business man, the business man's wife, the business man's daughter, and, especially, Julian Mastakovich.",36,0.0153,0.0073,0.0086,0.5945,0.0235,0.0571,0.2938,joy
+66386,13437,Best Russian Short Stories,52,"""Is he married?",3,0.0136,0.0057,0.0034,0.008,0.0051,0.8627,0.1015,surprise
+66387,13437,Best Russian Short Stories,52,I asked out loud of an acquaintance of mine standing beside Julian Mastakovich.,13,0.0211,0.0084,0.0146,0.0252,0.0115,0.5918,0.3275,surprise
+66388,13437,Best Russian Short Stories,53,Julian Mastakovich gave me a venomous look.,7,0.0611,0.185,0.5872,0.0379,0.0111,0.0298,0.0877,fear
+66389,13437,Best Russian Short Stories,54,"""No,"" answered my acquaintance, profoundly shocked by my--intentional--indiscretion.",8,0.0225,0.0073,0.0913,0.0413,0.095,0.699,0.0436,surprise
+66390,13437,Best Russian Short Stories,55,Not long ago I passed the Church of----.,8,0.0717,0.0351,0.0579,0.0652,0.1014,0.2375,0.4313,neutral
+66391,13437,Best Russian Short Stories,55,I was struck by the concourse of people gathered there to witness a wedding.,14,0.0198,0.0074,0.0466,0.0912,0.0827,0.6971,0.0553,surprise
+66392,13437,Best Russian Short Stories,55,It was a dreary day.,5,0.0692,0.0851,0.3758,0.0148,0.3944,0.0201,0.0406,sadness
+66393,13437,Best Russian Short Stories,55,A drizzling rain was beginning to come down.,8,0.1626,0.2255,0.0868,0.0675,0.2032,0.0702,0.1842,disgust
+66394,13437,Best Russian Short Stories,55,I made my way through the throng into the church.,10,0.0604,0.0161,0.0323,0.0503,0.064,0.0651,0.7118,neutral
+66395,13437,Best Russian Short Stories,55,"The bridegroom was a round, well-fed, pot-bellied little man, very much dressed up.",13,0.0154,0.0295,0.0228,0.4082,0.0089,0.0379,0.4774,neutral
+66396,13437,Best Russian Short Stories,55,He ran and fussed about and gave orders and arranged things.,11,0.089,0.0163,0.0448,0.1727,0.0131,0.0479,0.6162,neutral
+66397,13437,Best Russian Short Stories,55,Finally word was passed that the bride was coming.,9,0.0145,0.0093,0.0259,0.1887,0.0212,0.0901,0.6502,neutral
+66398,13437,Best Russian Short Stories,55,"I pushed through the crowd, and I beheld a marvellous beauty whose first spring was scarcely commencing.",17,0.0251,0.0239,0.0439,0.3044,0.0129,0.2662,0.3237,neutral
+66399,13437,Best Russian Short Stories,55,But the beauty was pale and sad.,7,0.0069,0.0094,0.041,0.0048,0.9246,0.006,0.0072,sadness
+66400,13437,Best Russian Short Stories,55,She looked distracted.,3,0.1706,0.029,0.053,0.0643,0.1843,0.3081,0.1906,surprise
+66401,13437,Best Russian Short Stories,55,It seemed to me even that her eyes were red from recent weeping.,13,0.0466,0.0286,0.0522,0.0216,0.7758,0.0315,0.0437,sadness
+66402,13437,Best Russian Short Stories,55,The classic severity of every line of her face imparted a peculiar significance and solemnity to her beauty.,18,0.0436,0.0467,0.0717,0.1959,0.0646,0.191,0.3865,neutral
+66403,13437,Best Russian Short Stories,55,"But through that severity and solemnity, through the sadness, shone the innocence of a child.",15,0.0165,0.0046,0.0246,0.0652,0.7403,0.0576,0.0911,sadness
+66404,13437,Best Russian Short Stories,55,"There was something inexpressibly naïve, unsettled and young in her features, which, without words, seemed to plead for mercy.",19,0.0477,0.0164,0.2269,0.0433,0.0936,0.3422,0.23,surprise
+66405,13437,Best Russian Short Stories,56,They said she was just sixteen years old.,8,0.0728,0.0288,0.0684,0.0193,0.0217,0.0677,0.7214,neutral
+66406,13437,Best Russian Short Stories,56,I looked at the bridegroom carefully.,6,0.0169,0.0195,0.09,0.1668,0.0906,0.326,0.2901,surprise
+66407,13437,Best Russian Short Stories,56,"Suddenly I recognised Julian Mastakovich, whom I had not seen again in all those five years.",16,0.0239,0.0044,0.0205,0.0215,0.077,0.5305,0.3222,surprise
+66408,13437,Best Russian Short Stories,56,Then I looked at the bride again.,7,0.0228,0.0076,0.0346,0.058,0.0955,0.1865,0.595,neutral
+66409,13437,Best Russian Short Stories,56,"--Good God! I made my way, as quickly as I could, out of the church. I heard gossiping in the crowd about the bride's wealth--about her dowry of five hundred thousand rubles--so and so much for pocket money.",38,0.0151,0.0125,0.0095,0.8029,0.0085,0.0774,0.0742,joy
+66410,13437,Best Russian Short Stories,57,"""Then his calculations were correct,"" I thought, as I pressed out into the street.",14,0.0112,0.004,0.0078,0.2531,0.0077,0.1021,0.6139,neutral

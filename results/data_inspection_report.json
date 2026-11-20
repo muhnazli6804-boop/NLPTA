@@ -1,0 +1,297 @@
+{
+  "columns": [
+    "sentence_id",
+    "gutenberg_id",
+    "title",
+    "paragraph_id",
+    "text",
+    "word_count"
+  ],
+  "total_rows": 66410,
+  "titles_summary": [
+    {
+      "title": "The Brothers Karamazov",
+      "sentences_count": 13763,
+      "total_words": 349192,
+      "avg_words_per_sentence": 25.37
+    },
+    {
+      "title": "The possessed :  or, The devils",
+      "sentences_count": 10847,
+      "total_words": 252441,
+      "avg_words_per_sentence": 23.27
+    },
+    {
+      "title": "The Idiot",
+      "sentences_count": 9722,
+      "total_words": 241446,
+      "avg_words_per_sentence": 24.84
+    },
+    {
+      "title": "Crime and Punishment",
+      "sentences_count": 8342,
+      "total_words": 202601,
+      "avg_words_per_sentence": 24.29
+    },
+    {
+      "title": "The house of the dead :  or, Prison life in Siberia",
+      "sentences_count": 5955,
+      "total_words": 121778,
+      "avg_words_per_sentence": 20.45
+    },
+    {
+      "title": "Uncle's Dream; and The Permanent Husband",
+      "sentences_count": 3880,
+      "total_words": 97872,
+      "avg_words_per_sentence": 25.22
+    },
+    {
+      "title": "Short Stories",
+      "sentences_count": 3829,
+      "total_words": 80488,
+      "avg_words_per_sentence": 21.02
+    },
+    {
+      "title": "White nights, and other stories",
+      "sentences_count": 3094,
+      "total_words": 72492,
+      "avg_words_per_sentence": 23.43
+    },
+    {
+      "title": "The Gambler",
+      "sentences_count": 2572,
+      "total_words": 60121,
+      "avg_words_per_sentence": 23.38
+    },
+    {
+      "title": "Poor Folk",
+      "sentences_count": 2270,
+      "total_words": 54056,
+      "avg_words_per_sentence": 23.81
+    },
+    {
+      "title": "Notes from the Underground",
+      "sentences_count": 1950,
+      "total_words": 43868,
+      "avg_words_per_sentence": 22.5
+    },
+    {
+      "title": "Best Russian Short Stories",
+      "sentences_count": 186,
+      "total_words": 2773,
+      "avg_words_per_sentence": 14.91
+    }
+  ],
+  "empty_sentences_count": 0,
+  "short_sentences_count_le_2_words": 1466,
+  "long_sentences_ge_100_words": 1540,
+  "extreme_long_sentences_ge_250_words": 283,
+  "unique_duplicated_texts": 348,
+  "total_duplicate_redundant_instances": 607,
+  "top_20_duplicated_phrases": [
+    {
+      "text": "“Yes.”",
+      "count": 58
+    },
+    {
+      "text": "\"Yes.\"",
+      "count": 14
+    },
+    {
+      "text": "“No.”",
+      "count": 13
+    },
+    {
+      "text": "“What?”",
+      "count": 10
+    },
+    {
+      "text": "Why?",
+      "count": 9
+    },
+    {
+      "text": "“Why?”",
+      "count": 9
+    },
+    {
+      "text": "Blanche.",
+      "count": 9
+    },
+    {
+      "text": "A silence followed.",
+      "count": 8
+    },
+    {
+      "text": "I asked.",
+      "count": 8
+    },
+    {
+      "text": "“Well?”",
+      "count": 7
+    },
+    {
+      "text": "I thought.",
+      "count": 7
+    },
+    {
+      "text": "\"Hush!\"",
+      "count": 7
+    },
+    {
+      "text": "\"What?\"",
+      "count": 7
+    },
+    {
+      "text": "Mme.",
+      "count": 7
+    },
+    {
+      "text": "“What is it?”",
+      "count": 6
+    },
+    {
+      "text": "What for?",
+      "count": 6
+    },
+    {
+      "text": "I asked him.",
+      "count": 6
+    },
+    {
+      "text": "Alas!",
+      "count": 6
+    },
+    {
+      "text": "“What do you mean?”",
+      "count": 5
+    },
+    {
+      "text": "“What is it?",
+      "count": 5
+    }
+  ],
+  "sample_short_sentences": [
+    {
+      "sentence_id": "98",
+      "title": "Crime and Punishment",
+      "text": "“Just so.”",
+      "word_count": 2
+    },
+    {
+      "sentence_id": "360",
+      "title": "Crime and Punishment",
+      "text": "He scowled.",
+      "word_count": 2
+    },
+    {
+      "sentence_id": "369",
+      "title": "Crime and Punishment",
+      "text": "“Work...”",
+      "word_count": 1
+    },
+    {
+      "sentence_id": "546",
+      "title": "Crime and Punishment",
+      "text": "Splendid! splendid!",
+      "word_count": 2
+    },
+    {
+      "sentence_id": "553",
+      "title": "Crime and Punishment",
+      "text": "No matter!",
+      "word_count": 2
+    },
+    {
+      "sentence_id": "675",
+      "title": "Crime and Punishment",
+      "text": "Raskolnikov laughed.",
+      "word_count": 2
+    },
+    {
+      "sentence_id": "688",
+      "title": "Crime and Punishment",
+      "text": "Ugh!",
+      "word_count": 1
+    },
+    {
+      "sentence_id": "692",
+      "title": "Crime and Punishment",
+      "text": "A percentage!",
+      "word_count": 2
+    },
+    {
+      "sentence_id": "881",
+      "title": "Crime and Punishment",
+      "text": "Freedom, freedom!",
+      "word_count": 2
+    },
+    {
+      "sentence_id": "974",
+      "title": "Crime and Punishment",
+      "text": "“Well?”",
+      "word_count": 1
+    },
+    {
+      "sentence_id": "1117",
+      "title": "Crime and Punishment",
+      "text": "“Good heavens!",
+      "word_count": 2
+    },
+    {
+      "sentence_id": "1154",
+      "title": "Crime and Punishment",
+      "text": "No answer.",
+      "word_count": 2
+    },
+    {
+      "sentence_id": "1311",
+      "title": "Crime and Punishment",
+      "text": "Why?",
+      "word_count": 1
+    },
+    {
+      "sentence_id": "1317",
+      "title": "Crime and Punishment",
+      "text": "Coming here!",
+      "word_count": 2
+    },
+    {
+      "sentence_id": "1350",
+      "title": "Crime and Punishment",
+      "text": "“Oh!”",
+      "word_count": 1
+    }
+  ],
+  "top_5_longest_sentences": [
+    {
+      "sentence_id": "9887",
+      "title": "Notes from the Underground",
+      "text": "“Oh, hush, Liza! How can you talk about being like a book, when it makes even me, an outsider, feel sick? Though I don’t look at it as an outsider, for, indeed, it touches me to the heart.... Is it possible, is it possible that you do not feel sick at being here yourself? Evidently habit does wonders! God knows what habit can do with anyone. Can you seriously think that you will never grow old, that you will always be good-looking, and that they will keep you here for ever and ever? I say nothing of the loathsomeness of the life here.... Though let me tell you this about it—about your present life, I mean; here though you are young now, attractive, nice, with soul and feeling, yet you know as soon as I came to myself just now I felt at once sick at being here with you! One can only come here when one is drunk. But if you were anywhere else, living as good people live, I should perhaps be more than attracted by you, should fall in love with you, should be glad of a look from you, let alone a word; I should hang about your door, should go down on my knees to you, should look upon you as my betrothed and think it an honour to be allowed to. I should not dare to have an impure thought about you. But here, you see, I know that I have only to whistle and you have to come with me whether you like it or not. I don’t consult your wishes, but you mine. The lowest labourer hires himself as a workman, but he doesn’t make a slave of himself altogether; besides, he knows that he will be free again presently. But when are you free? Only think what you are giving up here? What is it you are making a slave of? It is your soul, together with your body; you are selling your soul which you have no right to dispose of! You give your love to be outraged by every drunkard! Love! But that’s everything, you know, it’s a priceless diamond, it’s a maiden’s treasure, love—why, a man would be ready to give his soul, to face death to gain that love. But how much is your love worth now? You are sold, all of you, body and soul, and there is no need to strive for love when you can have everything without love. And you know there is no greater insult to a girl than that, do you understand? To be sure, I have heard that they comfort you, poor fools, they let you have lovers of your own here. But you know that’s simply a farce, that’s simply a sham, it’s just laughing at you, and you are taken in by it! Why, do you suppose he really loves you, that lover of yours? I don’t believe it. How can he love you when he knows you may be called away from him any minute? He would be a low fellow if he did! Will he have a grain of respect for you? What have you in common with him? He laughs at you and robs you—that is all his love amounts to! You are lucky if he does not beat you. Very likely he does beat you, too. Ask him, if you have got one, whether he will marry you. He will laugh in your face, if he doesn’t spit in it or give you a blow—though maybe he is not worth a bad halfpenny himself. And for what have you ruined your life, if you come to think of it? For the coffee they give you to drink and the plentiful meals? But with what object are they feeding you up? An honest girl couldn’t swallow the food, for she would know what she was being fed for. You are in debt here, and, of course, you will always be in debt, and you will go on in debt to the end, till the visitors here begin to scorn you. And that will soon happen, don’t rely upon your youth—all that flies by express train here, you know. You will be kicked out. And not simply kicked out; long before that she’ll begin nagging at you, scolding you, abusing you, as though you had not sacrificed your health for her, had not thrown away your youth and your soul for her benefit, but as though you had ruined her, beggared her, robbed her. And don’t expect anyone to take your part: the others, your companions, will attack you, too, win her favour, for all are in slavery here, and have lost all conscience and pity here long ago. They have become utterly vile, and nothing on earth is viler, more loathsome, and more insulting than their abuse. And you are laying down everything here, unconditionally, youth and health and beauty and hope, and at twenty-two you will look like a woman of five-and-thirty, and you will be lucky if you are not diseased, pray to God for that! No doubt you are thinking now that you have a gay time and no work to do! Yet there is no work harder or more dreadful in the world or ever has been. One would think that the heart alone would be worn out with tears. And you won’t dare to say a word, not half a word when they drive you away from here; you will go away as though you were to blame. You will change to another house, then to a third, then somewhere else, till you come down at last to the Haymarket. There you will be beaten at every turn; that is good manners there, the visitors don’t know how to be friendly without beating you. You don’t believe that it is so hateful there? Go and look for yourself some time, you can see with your own eyes. Once, one New Year’s Day, I saw a woman at a door. They had turned her out as a joke, to give her a taste of the frost because she had been crying so much, and they shut the door behind her. At nine o’clock in the morning she was already quite drunk, dishevelled, half-naked, covered with bruises, her face was powdered, but she had a black-eye, blood was trickling from her nose and her teeth; some cabman had just given her a drubbing. She was sitting on the stone steps, a salt fish of some sort was in her hand; she was crying, wailing something about her luck and beating with the fish on the steps, and cabmen and drunken soldiers were crowding in the doorway taunting her. You don’t believe that you will ever be like that? I should be sorry to believe it, too, but how do you know; maybe ten years, eight years ago that very woman with the salt fish came here fresh as a cherub, innocent, pure, knowing no evil, blushing at every word. Perhaps she was like you, proud, ready to take offence, not like the others; perhaps she looked like a queen, and knew what happiness was in store for the man who should love her and whom she should love. Do you see how it ended? And what if at that very minute when she was beating on the filthy steps with that fish, drunken and dishevelled—what if at that very minute she recalled the pure early days in her father’s house, when she used to go to school and the neighbour’s son watched for her on the way, declaring that he would love her as long as he lived, that he would devote his life to her, and when they vowed to love one another for ever and be married as soon as they were grown up! No, Liza, it would be happy for you if you were to die soon of consumption in some corner, in some cellar like that woman just now. In the hospital, do you say? You will be lucky if they take you, but what if you are still of use to the madam here? Consumption is a queer disease, it is not like fever. The patient goes on hoping till the last minute and says he is all right. He deludes himself And that just suits your madam. Don’t doubt it, that’s how it is; you have sold your soul, and what is more you owe money, so you daren’t say a word. But when you are dying, all will abandon you, all will turn away from you, for then there will be nothing to get from you. What’s more, they will reproach you for cumbering the place, for being so long over dying. However you beg you won’t get a drink of water without abuse: ‘Whenever are you going off, you nasty hussy, you won’t let us sleep with your moaning, you make the gentlemen sick. That’s true, I have heard such things said myself. They will thrust you dying into the filthiest corner in the cellar—in the damp and darkness; what will your thoughts be, lying there alone? When you die, strange hands will lay you out, with grumbling and impatience; no one will bless you, no one will sigh for you, they only want to get rid of you as soon as may be; they will buy a coffin, take you to the grave as they did that poor woman today, and celebrate your memory at the tavern. In the grave, sleet, filth, wet snow—no need to put themselves out for you—‘Let her down, Vanuha; it’s just like her luck—even here, she is head-foremost, the hussy. Shorten the cord, you rascal. ‘It’s all right as it is. ‘All right, is it? Why, she’s on her side! She was a fellow-creature, after all! But, never mind, throw the earth on her. And they won’t care to waste much time quarrelling over you. They will scatter the wet blue clay as quick as they can and go off to the tavern ... and there your memory on earth will end; other women have children to go to their graves, fathers, husbands. While for you neither tear, nor sigh, nor remembrance; no one in the whole world will ever come to you, your name will vanish from the face of the earth—as though you had never existed, never been born at all! Nothing but filth and mud, however you knock at your coffin lid at night, when the dead arise, however you cry: ‘Let me out, kind people, to live in the light of day! My life was no life at all; my life has been thrown away like a dish-clout; it was drunk away in the tavern at the Haymarket; let me out, kind people, to live in the world again.’”",
+      "word_count": 1815
+    },
+    {
+      "sentence_id": "20478",
+      "title": "The Brothers Karamazov",
+      "text": "“‘So that, in truth, Thou didst Thyself lay the foundation for the destruction of Thy kingdom, and no one is more to blame for it. Yet what was offered Thee? There are three powers, three powers alone, able to conquer and to hold captive for ever the conscience of these impotent rebels for their happiness—those forces are miracle, mystery and authority. Thou hast rejected all three and hast set the example for doing so. When the wise and dread spirit set Thee on the pinnacle of the temple and said to Thee, “If Thou wouldst know whether Thou art the Son of God then cast Thyself down, for it is written: the angels shall hold him up lest he fall and bruise himself, and Thou shalt know then whether Thou art the Son of God and shalt prove then how great is Thy faith in Thy Father. But Thou didst refuse and wouldst not cast Thyself down. Oh, of course, Thou didst proudly and well, like God; but the weak, unruly race of men, are they gods? Oh, Thou didst know then that in taking one step, in making one movement to cast Thyself down, Thou wouldst be tempting God and have lost all Thy faith in Him, and wouldst have been dashed to pieces against that earth which Thou didst come to save. And the wise spirit that tempted Thee would have rejoiced. But I ask again, are there many like Thee? And couldst Thou believe for one moment that men, too, could face such a temptation? Is the nature of men such, that they can reject miracle, and at the great moments of their life, the moments of their deepest, most agonizing spiritual difficulties, cling only to the free verdict of the heart? Oh, Thou didst know that Thy deed would be recorded in books, would be handed down to remote times and the utmost ends of the earth, and Thou didst hope that man, following Thee, would cling to God and not ask for a miracle. But Thou didst not know that when man rejects miracle he rejects God too; for man seeks not so much God as the miraculous. And as man cannot bear to be without the miraculous, he will create new miracles of his own for himself, and will worship deeds of sorcery and witchcraft, though he might be a hundred times over a rebel, heretic and infidel. Thou didst not come down from the Cross when they shouted to Thee, mocking and reviling Thee, “Come down from the cross and we will believe that Thou art He. Thou didst not come down, for again Thou wouldst not enslave man by a miracle, and didst crave faith given freely, not based on miracle. Thou didst crave for free love and not the base raptures of the slave before the might that has overawed him for ever. But Thou didst think too highly of men therein, for they are slaves, of course, though rebellious by nature. Look round and judge; fifteen centuries have passed, look upon them. Whom hast Thou raised up to Thyself? I swear, man is weaker and baser by nature than Thou hast believed him! Can he, can he do what Thou didst? By showing him so much respect, Thou didst, as it were, cease to feel for him, for Thou didst ask far too much from him—Thou who hast loved him more than Thyself! Respecting him less, Thou wouldst have asked less of him. That would have been more like love, for his burden would have been lighter. He is weak and vile. What though he is everywhere now rebelling against our power, and proud of his rebellion? It is the pride of a child and a schoolboy. They are little children rioting and barring out the teacher at school. But their childish delight will end; it will cost them dear. They will cast down temples and drench the earth with blood. But they will see at last, the foolish children, that, though they are rebels, they are impotent rebels, unable to keep up their own rebellion. Bathed in their foolish tears, they will recognize at last that He who created them rebels must have meant to mock at them. They will say this in despair, and their utterance will be a blasphemy which will make them more unhappy still, for man’s nature cannot bear blasphemy, and in the end always avenges it on itself. And so unrest, confusion and unhappiness—that is the present lot of man after Thou didst bear so much for their freedom! The great prophet tells in vision and in image, that he saw all those who took part in the first resurrection and that there were of each tribe twelve thousand. But if there were so many of them, they must have been not men but gods. They had borne Thy cross, they had endured scores of years in the barren, hungry wilderness, living upon locusts and roots—and Thou mayest indeed point with pride at those children of freedom, of free love, of free and splendid sacrifice for Thy name. But remember that they were only some thousands; and what of the rest? And how are the other weak ones to blame, because they could not endure what the strong have endured? How is the weak soul to blame that it is unable to receive such terrible gifts? Canst Thou have simply come to the elect and for the elect? But if so, it is a mystery and we cannot understand it. And if it is a mystery, we too have a right to preach a mystery, and to teach them that it’s not the free judgment of their hearts, not love that matters, but a mystery which they must follow blindly, even against their conscience. So we have done. We have corrected Thy work and have founded it upon miracle, mystery and authority. And men rejoiced that they were again led like sheep, and that the terrible gift that had brought them such suffering was, at last, lifted from their hearts. Were we right teaching them this? Speak! Did we not love mankind, so meekly acknowledging their feebleness, lovingly lightening their burden, and permitting their weak nature even sin with our sanction? Why hast Thou come now to hinder us? And why dost Thou look silently and searchingly at me with Thy mild eyes? Be angry. I don’t want Thy love, for I love Thee not. And what use is it for me to hide anything from Thee? Don’t I know to Whom I am speaking? All that I can say is known to Thee already. And is it for me to conceal from Thee our mystery? Perhaps it is Thy will to hear it from my lips. Listen, then. We are not working with Thee, but with him—that is our mystery. It’s long—eight centuries—since we have been on his side and not on Thine. Just eight centuries ago, we took from him what Thou didst reject with scorn, that last gift he offered Thee, showing Thee all the kingdoms of the earth. We took from him Rome and the sword of Cæsar, and proclaimed ourselves sole rulers of the earth, though hitherto we have not been able to complete our work. But whose fault is that? Oh, the work is only beginning, but it has begun. It has long to await completion and the earth has yet much to suffer, but we shall triumph and shall be Cæsars, and then we shall plan the universal happiness of man. But Thou mightest have taken even then the sword of Cæsar. Why didst Thou reject that last gift? Hadst Thou accepted that last counsel of the mighty spirit, Thou wouldst have accomplished all that man seeks on earth—that is, some one to worship, some one to keep his conscience, and some means of uniting all in one unanimous and harmonious ant-heap, for the craving for universal unity is the third and last anguish of men. Mankind as a whole has always striven to organize a universal state. There have been many great nations with great histories, but the more highly they were developed the more unhappy they were, for they felt more acutely than other people the craving for world-wide union. The great conquerors, Timours and Ghenghis-Khans, whirled like hurricanes over the face of the earth striving to subdue its people, and they too were but the unconscious expression of the same craving for universal unity. Hadst Thou taken the world and Cæsar’s purple, Thou wouldst have founded the universal state and have given universal peace. For who can rule men if not he who holds their conscience and their bread in his hands? We have taken the sword of Cæsar, and in taking it, of course, have rejected Thee and followed him. Oh, ages are yet to come of the confusion of free thought, of their science and cannibalism. For having begun to build their tower of Babel without us, they will end, of course, with cannibalism. But then the beast will crawl to us and lick our feet and spatter them with tears of blood. And we shall sit upon the beast and raise the cup, and on it will be written, “Mystery. But then, and only then, the reign of peace and happiness will come for men. Thou art proud of Thine elect, but Thou hast only the elect, while we give rest to all. And besides, how many of those elect, those mighty ones who could become elect, have grown weary waiting for Thee, and have transferred and will transfer the powers of their spirit and the warmth of their heart to the other camp, and end by raising their free banner against Thee. Thou didst Thyself lift up that banner. But with us all will be happy and will no more rebel nor destroy one another as under Thy freedom. Oh, we shall persuade them that they will only become free when they renounce their freedom to us and submit to us. And shall we be right or shall we be lying? They will be convinced that we are right, for they will remember the horrors of slavery and confusion to which Thy freedom brought them. Freedom, free thought and science, will lead them into such straits and will bring them face to face with such marvels and insoluble mysteries, that some of them, the fierce and rebellious, will destroy themselves, others, rebellious but weak, will destroy one another, while the rest, weak and unhappy, will crawl fawning to our feet and whine to us: “Yes, you were right, you alone possess His mystery, and we come back to you, save us from ourselves!”",
+      "word_count": 1793
+    },
+    {
+      "sentence_id": "63348",
+      "title": "White nights, and other stories",
+      "text": "\"I will continue. There is, my friend Nastenka, one hour in my day which I like extremely. That is the hour when almost all business, work and duties are over, and every one is hurrying home to dinner, to lie down, to rest, and on the way all are cogitating on other more cheerful subjects relating to their evenings, their nights, and all the rest of their free time. At that hour our hero--for allow me, Nastenka, to tell my story in the third person, for one feels awfully ashamed to tell it in the first person--and so at that hour our hero, who had his work too, was pacing along after the others. But a strange feeling of pleasure set his pale, rather crumpled-looking face working. He looked not with indifference on the evening glow which was slowly fading on the cold Petersburg sky. When I say he looked, I am lying: he did not look at it, but saw it as it were without realizing, as though tired or preoccupied with some other more interesting subject, so that he could scarcely spare a glance for anything about him. He was pleased because till next day he was released from business irksome to him, and happy as a schoolboy let out from the class-room to his games and mischief. Take a look at him, Nastenka; you will see at once that joyful emotion has already had an effect on his weak nerves and morbidly excited fancy. You see he is thinking of something.... Of dinner, do you imagine? Of the evening? What is he looking at like that? Is it at that gentleman of dignified appearance who is bowing so picturesquely to the lady who rolls by in a carriage drawn by prancing horses? No, Nastenka; what are all those trivialities to him now! He is rich now with his own individual life; he has suddenly become rich, and it is not for nothing that the fading sunset sheds its farewell gleams so gaily before him, and calls forth a swarm of impressions from his warmed heart. Now he hardly notices the road, on which the tiniest details at other times would strike him. Now 'the Goddess of Fancy' (if you have read Zhukovsky, dear Nastenka) has already with fantastic hand spun her golden warp and begun weaving upon it patterns of marvellous magic life--and who knows, maybe, her fantastic hand has borne him to the seventh crystal heaven far from the excellent granite pavement on which he was walking his way? Try stopping him now, ask him suddenly where he is standing now, through what streets he is going--he will, probably remember nothing, neither where he is going nor where he is standing now, and flushing with vexation he will certainly tell some lie to save appearances. That is why he starts, almost cries out, and looks round with horror when a respectable old lady stops him politely in the middle of the pavement and asks her way. Frowning with vexation he strides on, scarcely noticing that more than one passer-by smiles and turns round to look after him, and that a little girl, moving out of his way in alarm, laughs aloud, gazing open-eyed at his broad meditative smile and gesticulations. But fancy catches up in its playful flight the old woman, the curious passers-by, and the laughing child, and the peasants spending their nights in their barges on Fontanka (our hero, let us suppose, is walking along the canal-side at that moment), and capriciously weaves every one and everything into the canvas like a fly in a spider's web. And it is only after the queer fellow has returned to his comfortable den with fresh stores for his mind to work on, has sat down and finished his dinner, that he comes to himself, when Matrona who waits upon him--always thoughtful and depressed--clears the table and gives him his pipe; he comes to himself then and recalls with surprise that he has dined, though he has absolutely no notion how it has happened. It has grown dark in the room; his soul is sad and empty; the whole kingdom of fancies drops to pieces about him, drops to pieces without a trace, without a sound, floats away like a dream, and he cannot himself remember what he was dreaming. But a vague sensation faintly stirs his heart and sets it aching, some new desire temptingly tickles and excites his fancy, and imperceptibly evokes a swarm of fresh phantoms. Stillness reigns in the little room; imagination is fostered by solitude and idleness; it is faintly smouldering, faintly simmering, like the water with which old Matrona is making her coffee as she moves quietly about in the kitchen close by. Now it breaks out spasmodically; and the book, picked up aimlessly and at random, drops from my dreamer's hand before he has reached the third page. His imagination is again stirred and at work, and again a new world, a new fascinating life opens vistas before him. A fresh dream--fresh happiness! A fresh rush of delicate, voluptuous poison! What is real life to him! To his corrupted eyes we live, you and I, Nastenka, so torpidly, slowly, insipidly; in his eyes we are all so dissatisfied with our fate, so exhausted by our life! And, truly, see how at first sight everything is cold, morose, as though ill-humoured among us.... Poor things! thinks our dreamer. And it is no wonder that he thinks it! Look at these magic phantasms, which so enchantingly, so whimsically, so carelessly and freely group before him in such a magic, animated picture, in which the most prominent figure in the foreground is of course himself, our dreamer, in his precious person. See what varied adventures, what an endless swarm of ecstatic dreams. You ask, perhaps, what he is dreaming of. Why ask that?--why, of everything ... of the lot of the poet, first unrecognized, then crowned with laurels; of friendship with Hoffmann, St. Bartholomew's Night, of Diana Vernon, of playing the hero at the taking of Kazan by Ivan Vassilyevitch, of Clara Mowbray, of Effie Deans, of the council of the prelates and Huss before them, of the rising of the dead in 'Robert the Devil' (do you remember the music, it smells of the churchyard!), of Minna and Brenda, of the battle of Berezina, of the reading of a poem at Countess V. D.'s, of Danton, of Cleopatra ei suoi amanti, of a little house in Kolomna, of a little home of one's own and beside one a dear creature who listens to one on a winter's evening, opening her little mouth and eyes as you are listening to me now, my angel.... No, Nastenka, what is there, what is there for him, voluptuous sluggard, in this life, for which you and I have such a longing? He thinks that this is a poor pitiful life, not foreseeing that for him too, maybe, sometime the mournful hour may strike, when for one day of that pitiful life he would give all his years of phantasy, and would give them not only for joy and for happiness, but without caring to make distinctions in that hour of sadness, remorse and unchecked grief. But so far that threatening has not arrived--he desires nothing, because he is superior to all desire, because he has everything, because he is satiated, because he is the artist of his own life, and creates it for himself every hour to suit his latest whim. And you know this fantastic world of fairyland is so easily, so naturally created! As though it were not a delusion! Indeed, he is ready to believe at some moments that all this life is not suggested by feeling, is not mirage, not a delusion of the imagination, but that it is concrete, real, substantial! Why is it, Nastenka, why is it at such moments one holds one's breath? Why, by what sorcery, through what incomprehensible caprice, is the pulse quickened, does a tear start from the dreamer's eye, while his pale moist cheeks glow, while his whole being is suffused with an inexpressible sense of consolation? Why is it that whole sleepless nights pass like a flash in inexhaustible gladness and happiness, and when the dawn gleams rosy at the window and daybreak floods the gloomy room with uncertain, fantastic light, as in Petersburg, our dreamer, worn out and exhausted, flings himself on his bed and drops asleep with thrills of delight in his morbidly overwrought spirit, and with a weary sweet ache in his heart? Yes, Nastenka, one deceives oneself and unconsciously believes that real true passion is stirring one's soul; one unconsciously believes that there is something living, tangible in one's immaterial dreams! And is it delusion? Here love, for instance, is bound up with all its fathomless joy, all its torturing agonies in his bosom.... Only look at him, and you will be convinced! Would you believe, looking at him, dear Nastenka, that he has never known her whom he loves in his ecstatic dreams? Can it be that he has only seen her in seductive visions, and that this passion has been nothing but a dream? Surely they must have spent years hand in hand together--alone the two of them, casting off all the world and each uniting his or her life with the other's? Surely when the hour of parting came she must have lain sobbing and grieving on his bosom, heedless of the tempest raging under the sullen sky, heedless of the wind which snatches and bears away the tears from her black eyelashes? Can all of that have been a dream--and that garden, dejected, forsaken, run wild, with its little moss-grown paths, solitary, gloomy, where they used to walk so happily together, where they hoped, grieved, loved, loved each other so long, \"so long and so fondly?",
+      "word_count": 1650
+    },
+    {
+      "sentence_id": "214",
+      "title": "Crime and Punishment",
+      "text": "“Young man,” he went on, raising his head again, “in your face I seem to read some trouble of mind. When you came in I read it, and that was why I addressed you at once. For in unfolding to you the story of my life, I do not wish to make myself a laughing-stock before these idle listeners, who indeed know all about it already, but I am looking for a man of feeling and education. Know then that my wife was educated in a high-class school for the daughters of noblemen, and on leaving she danced the shawl dance before the governor and other personages for which she was presented with a gold medal and a certificate of merit. The medal... well, the medal of course was sold--long ago, hm... but the certificate of merit is in her trunk still and not long ago she showed it to our landlady. And although she is most continually on bad terms with the landlady, yet she wanted to tell someone or other of her past honours and of the happy days that are gone. I don’t condemn her for it, I don’t blame her, for the one thing left her is recollection of the past, and all the rest is dust and ashes. Yes, yes, she is a lady of spirit, proud and determined. She scrubs the floors herself and has nothing but black bread to eat, but won’t allow herself to be treated with disrespect. That’s why she would not overlook Mr. Lebeziatnikov’s rudeness to her, and so when he gave her a beating for it, she took to her bed more from the hurt to her feelings than from the blows. She was a widow when I married her, with three children, one smaller than the other. She married her first husband, an infantry officer, for love, and ran away with him from her father’s house. She was exceedingly fond of her husband; but he gave way to cards, got into trouble and with that he died. He used to beat her at the end: and although she paid him back, of which I have authentic documentary evidence, to this day she speaks of him with tears and she throws him up at me; and I am glad, I am glad that, though only in imagination, she should think of herself as having once been happy.... And she was left at his death with three children in a wild and remote district where I happened to be at the time; and she was left in such hopeless poverty that, although I have seen many ups and downs of all sorts, I don’t feel equal to describing it even. Her relations had all thrown her off. And she was proud, too, excessively proud.... And then, honoured sir, and then, I, being at the time a widower, with a daughter of fourteen left me by my first wife, offered her my hand, for I could not bear the sight of such suffering. You can judge the extremity of her calamities, that she, a woman of education and culture and distinguished family, should have consented to be my wife. But she did! Weeping and sobbing and wringing her hands, she married me! For she had nowhere to turn! Do you understand, sir, do you understand what it means when you have absolutely nowhere to turn? No, that you don’t understand yet.... And for a whole year, I performed my duties conscientiously and faithfully, and did not touch this” (he tapped the jug with his finger), “for I have feelings. But even so, I could not please her; and then I lost my place too, and that through no fault of mine but through changes in the office; and then I did touch it!... It will be a year and a half ago soon since we found ourselves at last after many wanderings and numerous calamities in this magnificent capital, adorned with innumerable monuments. Here too I obtained a situation.... I obtained it and I lost it again. Do you understand? This time it was through my own fault I lost it: for my weakness had come out.... We have now part of a room at Amalia Fyodorovna Lippevechsel’s; and what we live upon and what we pay our rent with, I could not say. There are a lot of people living there beside ourselves. Dirt and disorder, a perfect Bedlam... hm... yes... And meanwhile my daughter by my first wife has grown up; and what my daughter has had to put up with from her step-mother whilst she was growing up, I won’t speak of. For, though Katerina Ivanovna is full of generous feelings, she is a spirited lady, irritable and short-tempered.... Yes. But it’s no use going over that! Sonia, as you may well fancy, has had no education. I did make an effort four years ago to give her a course of geography and universal history, but as I was not very well up in those subjects myself and we had no suitable books, and what books we had... hm, anyway we have not even those now, so all our instruction came to an end. We stopped at Cyrus of Persia. Since she has attained years of maturity, she has read other books of romantic tendency and of late she has read with great interest a book she got through Mr. Lebeziatnikov, Lewes’ Physiology--do you know it?--and even recounted extracts from it to us: and that’s the whole of her education. And now may I venture to address you, honoured sir, on my own account with a private question. Do you suppose that a respectable poor girl can earn much by honest work? Not fifteen farthings a day can she earn, if she is respectable and has no special talent and that without putting her work down for an instant! And what’s more, Ivan Ivanitch Klopstock the civil counsellor--have you heard of him?--has not to this day paid her for the half-dozen linen shirts she made him and drove her roughly away, stamping and reviling her, on the pretext that the shirt collars were not made like the pattern and were put in askew. And there are the little ones hungry.... And Katerina Ivanovna walking up and down and wringing her hands, her cheeks flushed red, as they always are in that disease: ‘Here you live with us,’ says she, ‘you eat and drink and are kept warm and you do nothing to help. And much she gets to eat and drink when there is not a crust for the little ones for three days! I was lying at the time... well, what of it! I was lying drunk and I heard my Sonia speaking (she is a gentle creature with a soft little voice... fair hair and such a pale, thin little face). She said: ‘Katerina Ivanovna, am I really to do a thing like that? And Darya Frantsovna, a woman of evil character and very well known to the police, had two or three times tried to get at her through the landlady. ‘And why not?’ said Katerina Ivanovna with a jeer, ‘you are something mighty precious to be so careful of! But don’t blame her, don’t blame her, honoured sir, don’t blame her! She was not herself when she spoke, but driven to distraction by her illness and the crying of the hungry children; and it was said more to wound her than anything else.... For that’s Katerina Ivanovna’s character, and when children cry, even from hunger, she falls to beating them at once. At six o’clock I saw Sonia get up, put on her kerchief and her cape, and go out of the room and about nine o’clock she came back. She walked straight up to Katerina Ivanovna and she laid thirty roubles on the table before her in silence. She did not utter a word, she did not even look at her, she simply picked up our big green drap de dames shawl (we have a shawl, made of drap de dames), put it over her head and face and lay down on the bed with her face to the wall; only her little shoulders and her body kept shuddering.... And I went on lying there, just as before.... And then I saw, young man, I saw Katerina Ivanovna, in the same silence go up to Sonia’s little bed; she was on her knees all the evening kissing Sonia’s feet, and would not get up, and then they both fell asleep in each other’s arms... together, together... yes... and I... lay drunk.”",
+      "word_count": 1438
+    },
+    {
+      "sentence_id": "7141",
+      "title": "Crime and Punishment",
+      "text": "“Yes, it was. I see that you, too, are extremely interested and shall feel it my duty to satisfy your curiosity at the first opportunity. Upon my soul! I see that I really might pass for a romantic figure with some people. Judge how grateful I must be to Marfa Petrovna for having repeated to Avdotya Romanovna such mysterious and interesting gossip about me. I dare not guess what impression it made on her, but in any case it worked in my interests. With all Avdotya Romanovna’s natural aversion and in spite of my invariably gloomy and repellent aspect--she did at last feel pity for me, pity for a lost soul. And if once a girl’s heart is moved to pity, it’s more dangerous than anything. She is bound to want to ‘save him,’ to bring him to his senses, and lift him up and draw him to nobler aims, and restore him to new life and usefulness--well, we all know how far such dreams can go. I saw at once that the bird was flying into the cage of herself. And I too made ready. I think you are frowning, Rodion Romanovitch? There’s no need. As you know, it all ended in smoke. (Hang it all, what a lot I am drinking!) Do you know, I always, from the very beginning, regretted that it wasn’t your sister’s fate to be born in the second or third century A.D., as the daughter of a reigning prince or some governor or pro-consul in Asia Minor. She would undoubtedly have been one of those who would endure martyrdom and would have smiled when they branded her bosom with hot pincers. And she would have gone to it of herself. And in the fourth or fifth century she would have walked away into the Egyptian desert and would have stayed there thirty years living on roots and ecstasies and visions. She is simply thirsting to face some torture for someone, and if she can’t get her torture, she’ll throw herself out of window. I’ve heard something of a Mr. Razumihin--he’s said to be a sensible fellow; his surname suggests it, indeed. He’s probably a divinity student. Well, he’d better look after your sister! I believe I understand her, and I am proud of it. But at the beginning of an acquaintance, as you know, one is apt to be more heedless and stupid. One doesn’t see clearly. Hang it all, why is she so handsome? It’s not my fault. In fact, it began on my side with a most irresistible physical desire. Avdotya Romanovna is awfully chaste, incredibly and phenomenally so. Take note, I tell you this about your sister as a fact. She is almost morbidly chaste, in spite of her broad intelligence, and it will stand in her way. There happened to be a girl in the house then, Parasha, a black-eyed wench, whom I had never seen before--she had just come from another village--very pretty, but incredibly stupid: she burst into tears, wailed so that she could be heard all over the place and caused scandal. One day after dinner Avdotya Romanovna followed me into an avenue in the garden and with flashing eyes insisted on my leaving poor Parasha alone. It was almost our first conversation by ourselves. I, of course, was only too pleased to obey her wishes, tried to appear disconcerted, embarrassed, in fact played my part not badly. Then came interviews, mysterious conversations, exhortations, entreaties, supplications, even tears--would you believe it, even tears? Think what the passion for propaganda will bring some girls to! I, of course, threw it all on my destiny, posed as hungering and thirsting for light, and finally resorted to the most powerful weapon in the subjection of the female heart, a weapon which never fails one. It’s the well-known resource--flattery. Nothing in the world is harder than speaking the truth and nothing easier than flattery. If there’s the hundredth part of a false note in speaking the truth, it leads to a discord, and that leads to trouble. But if all, to the last note, is false in flattery, it is just as agreeable, and is heard not without satisfaction. It may be a coarse satisfaction, but still a satisfaction. And however coarse the flattery, at least half will be sure to seem true. That’s so for all stages of development and classes of society. A vestal virgin might be seduced by flattery. I can never remember without laughter how I once seduced a lady who was devoted to her husband, her children, and her principles. What fun it was and how little trouble! And the lady really had principles--of her own, anyway. All my tactics lay in simply being utterly annihilated and prostrate before her purity. I flattered her shamelessly, and as soon as I succeeded in getting a pressure of the hand, even a glance from her, I would reproach myself for having snatched it by force, and would declare that she had resisted, so that I could never have gained anything but for my being so unprincipled. I maintained that she was so innocent that she could not foresee my treachery, and yielded to me unconsciously, unawares, and so on. In fact, I triumphed, while my lady remained firmly convinced that she was innocent, chaste, and faithful to all her duties and obligations and had succumbed quite by accident. And how angry she was with me when I explained to her at last that it was my sincere conviction that she was just as eager as I. Poor Marfa Petrovna was awfully weak on the side of flattery, and if I had only cared to, I might have had all her property settled on me during her lifetime. (I am drinking an awful lot of wine now and talking too much.) I hope you won’t be angry if I mention now that I was beginning to produce the same effect on Avdotya Romanovna. But I was stupid and impatient and spoiled it all. Avdotya Romanovna had several times--and one time in particular--been greatly displeased by the expression of my eyes, would you believe it? There was sometimes a light in them which frightened her and grew stronger and stronger and more unguarded till it was hateful to her. No need to go into detail, but we parted. There I acted stupidly again. I fell to jeering in the coarsest way at all such propaganda and efforts to convert me; Parasha came on to the scene again, and not she alone; in fact there was a tremendous to-do. Ah, Rodion Romanovitch, if you could only see how your sister’s eyes can flash sometimes! Never mind my being drunk at this moment and having had a whole glass of wine. I am speaking the truth. I assure you that this glance has haunted my dreams; the very rustle of her dress was more than I could stand at last. I really began to think that I might become epileptic. I could never have believed that I could be moved to such a frenzy. It was essential, indeed, to be reconciled, but by then it was impossible. And imagine what I did then! To what a pitch of stupidity a man can be brought by frenzy! Never undertake anything in a frenzy, Rodion Romanovitch. I reflected that Avdotya Romanovna was after all a beggar (ach, excuse me, that’s not the word... but does it matter if it expresses the meaning?), that she lived by her work, that she had her mother and you to keep (ach, hang it, you are frowning again), and I resolved to offer her all my money--thirty thousand roubles I could have realised then--if she would run away with me here, to Petersburg. Of course I should have vowed eternal love, rapture, and so on. Do you know, I was so wild about her at that time that if she had told me to poison Marfa Petrovna or to cut her throat and to marry herself, it would have been done at once! But it ended in the catastrophe of which you know already. You can fancy how frantic I was when I heard that Marfa Petrovna had got hold of that scoundrelly attorney, Luzhin, and had almost made a match between them--which would really have been just the same thing as I was proposing. Wouldn’t it? Wouldn’t it? I notice that you’ve begun to be very attentive... you interesting young man....”",
+      "word_count": 1415
+    }
+  ]
+}

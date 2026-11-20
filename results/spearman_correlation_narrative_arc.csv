@@ -1,0 +1,73 @@
+title,emotion,spearman_rho,p_value,significant_p05
+Best Russian Short Stories,anger,0.1384,0.16973237436916422,False
+Best Russian Short Stories,disgust,0.2552,0.010400355503664542,True
+Best Russian Short Stories,fear,0.1971,0.04930576571623479,True
+Best Russian Short Stories,joy,0.435,6.111491388538949e-06,True
+Best Russian Short Stories,sadness,0.3559,0.00027936090506114146,True
+Best Russian Short Stories,surprise,0.0032,0.9748028094000872,False
+Crime and Punishment,anger,0.4279,8.970891230744929e-06,True
+Crime and Punishment,disgust,0.3399,0.000540418761824972,True
+Crime and Punishment,fear,0.534,1.0565526274793014e-08,True
+Crime and Punishment,joy,0.5931,7.91500212807131e-11,True
+Crime and Punishment,sadness,0.4607,1.4168100690546662e-06,True
+Crime and Punishment,surprise,0.1567,0.11938864416603072,False
+Notes from the Underground,anger,0.3233,0.0010327672434008812,True
+Notes from the Underground,disgust,0.4135,1.9056452494158156e-05,True
+Notes from the Underground,fear,0.2962,0.002765020410270499,True
+Notes from the Underground,joy,0.3702,0.00014990124339651537,True
+Notes from the Underground,sadness,0.4049,2.932731381374501e-05,True
+Notes from the Underground,surprise,0.1757,0.08041998823795618,False
+Poor Folk,anger,0.2595,0.009120283428090393,True
+Poor Folk,disgust,0.4531,2.1995893434980694e-06,True
+Poor Folk,fear,0.5038,9.128528455174017e-08,True
+Poor Folk,joy,0.5782,2.9819115730237995e-10,True
+Poor Folk,sadness,0.4739,6.354347407462137e-07,True
+Poor Folk,surprise,0.1867,0.0628938444629934,False
+Short Stories,anger,0.2763,0.005393048187467347,True
+Short Stories,disgust,0.3413,0.0005116858267257016,True
+Short Stories,fear,0.4532,2.195282136864476e-06,True
+Short Stories,joy,0.6189,6.770287813779243e-12,True
+Short Stories,sadness,0.3101,0.0016910640935826793,True
+Short Stories,surprise,0.0563,0.577643573586383,False
+The Brothers Karamazov,anger,0.4496,2.6973403592321395e-06,True
+The Brothers Karamazov,disgust,0.1378,0.17143291473070418,False
+The Brothers Karamazov,fear,0.4707,7.721543333604333e-07,True
+The Brothers Karamazov,joy,0.7266,1.1611279151574972e-17,True
+The Brothers Karamazov,sadness,0.2853,0.004006316196242535,True
+The Brothers Karamazov,surprise,-0.0162,0.8728383099608499,False
+The Gambler,anger,0.3271,0.00089581161428899,True
+The Gambler,disgust,0.4622,1.2909923292392608e-06,True
+The Gambler,fear,0.454,2.089939334255379e-06,True
+The Gambler,joy,0.4064,2.7289316858876748e-05,True
+The Gambler,sadness,0.3426,0.00048504827133726334,True
+The Gambler,surprise,0.0454,0.6538076030110327,False
+The Idiot,anger,0.3454,0.00043241858341681985,True
+The Idiot,disgust,0.4986,1.295719950377498e-07,True
+The Idiot,fear,0.5874,1.3254456181616394e-10,True
+The Idiot,joy,0.7136,7.957167576608659e-17,True
+The Idiot,sadness,0.3056,0.0019872161281194256,True
+The Idiot,surprise,-0.0583,0.564330268784062,False
+"The house of the dead :  or, Prison life in Siberia",anger,0.179,0.07479971137662197,False
+"The house of the dead :  or, Prison life in Siberia",disgust,0.6332,1.5661298549853847e-12,True
+"The house of the dead :  or, Prison life in Siberia",fear,0.6165,8.573249492894994e-12,True
+"The house of the dead :  or, Prison life in Siberia",joy,0.5872,1.3500770311493688e-10,True
+"The house of the dead :  or, Prison life in Siberia",sadness,0.3768,0.00011133756302190442,True
+"The house of the dead :  or, Prison life in Siberia",surprise,0.1326,0.18842219702452215,False
+"The possessed :  or, The devils",anger,0.5494,3.229965725784939e-09,True
+"The possessed :  or, The devils",disgust,0.3395,0.0005483816976972507,True
+"The possessed :  or, The devils",fear,0.5141,4.4926956863233136e-08,True
+"The possessed :  or, The devils",joy,0.7046,2.8427560175527567e-16,True
+"The possessed :  or, The devils",sadness,0.2045,0.04127914614287627,True
+"The possessed :  or, The devils",surprise,0.0555,0.5832160050598407,False
+Uncle's Dream; and The Permanent Husband,anger,0.4051,2.902976715026395e-05,True
+Uncle's Dream; and The Permanent Husband,disgust,0.4682,9.020127676349365e-07,True
+Uncle's Dream; and The Permanent Husband,fear,0.6459,3.965345287516989e-13,True
+Uncle's Dream; and The Permanent Husband,joy,0.6795,7.709971760583552e-15,True
+Uncle's Dream; and The Permanent Husband,sadness,0.5206,2.8298815527791905e-08,True
+Uncle's Dream; and The Permanent Husband,surprise,0.4166,1.6203021808864407e-05,True
+"White nights, and other stories",anger,0.3973,4.2585265500825806e-05,True
+"White nights, and other stories",disgust,0.6276,2.7820082730880895e-12,True
+"White nights, and other stories",fear,0.6231,4.406206498505508e-12,True
+"White nights, and other stories",joy,0.704,3.081846690347993e-16,True
+"White nights, and other stories",sadness,0.5596,1.4281492808038996e-09,True
+"White nights, and other stories",surprise,0.1027,0.3090763274281185,False

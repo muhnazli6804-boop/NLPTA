@@ -1,0 +1,7 @@
+emotion,spearman_rho,p_value,significant_p05
+anger,0.1891,0.0,True
+disgust,0.3126,0.0,True
+fear,0.3075,0.0,True
+joy,0.2595,0.0,True
+sadness,0.2727,0.0,True
+surprise,0.0191,8.268992306980686e-07,True

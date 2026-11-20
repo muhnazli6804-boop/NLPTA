@@ -1,0 +1,129 @@
+{
+  "model_alias": "bert",
+  "base_model": "bert-base-uncased",
+  "best_macro_f1": 0.6634,
+  "accuracy": 0.6643,
+  "classification_report": {
+    "anger": {
+      "precision": 0.5344827586206896,
+      "recall": 0.5166666666666667,
+      "f1-score": 0.5254237288135594,
+      "support": 60.0
+    },
+    "disgust": {
+      "precision": 0.6142857142857143,
+      "recall": 0.7166666666666667,
+      "f1-score": 0.6615384615384615,
+      "support": 60.0
+    },
+    "fear": {
+      "precision": 0.8,
+      "recall": 0.7333333333333333,
+      "f1-score": 0.7652173913043478,
+      "support": 60.0
+    },
+    "joy": {
+      "precision": 0.7931034482758621,
+      "recall": 0.7666666666666667,
+      "f1-score": 0.7796610169491526,
+      "support": 60.0
+    },
+    "sadness": {
+      "precision": 0.7241379310344828,
+      "recall": 0.7,
+      "f1-score": 0.711864406779661,
+      "support": 60.0
+    },
+    "surprise": {
+      "precision": 0.6716417910447762,
+      "recall": 0.75,
+      "f1-score": 0.7086614173228346,
+      "support": 60.0
+    },
+    "neutral": {
+      "precision": 0.5185185185185185,
+      "recall": 0.4666666666666667,
+      "f1-score": 0.49122807017543857,
+      "support": 60.0
+    },
+    "accuracy": 0.6642857142857143,
+    "macro avg": {
+      "precision": 0.6651671659685776,
+      "recall": 0.6642857142857144,
+      "f1-score": 0.6633706418404935,
+      "support": 420.0
+    },
+    "weighted avg": {
+      "precision": 0.6651671659685776,
+      "recall": 0.6642857142857143,
+      "f1-score": 0.6633706418404937,
+      "support": 420.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      31,
+      10,
+      0,
+      1,
+      4,
+      8,
+      6
+    ],
+    [
+      6,
+      43,
+      3,
+      1,
+      1,
+      2,
+      4
+    ],
+    [
+      1,
+      8,
+      44,
+      0,
+      3,
+      1,
+      3
+    ],
+    [
+      3,
+      0,
+      1,
+      46,
+      2,
+      2,
+      6
+    ],
+    [
+      4,
+      7,
+      1,
+      0,
+      42,
+      3,
+      3
+    ],
+    [
+      4,
+      2,
+      2,
+      2,
+      1,
+      45,
+      4
+    ],
+    [
+      9,
+      0,
+      4,
+      8,
+      5,
+      6,
+      28
+    ]
+  ],
+  "saved_path": "C:\\Users\\Hype\\Documents\\NLP\\results\\models\\bert_ekman"
+}
